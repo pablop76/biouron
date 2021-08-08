@@ -15,20 +15,20 @@
     <title>Biouron</title>
 </head>
 
-<body>
+<body id="top">
     <!-- navbar -->
     <div class="uk-section uk-section-default uk-padding-remove uk-visible@m">
-        <div class="uk-container">
+        <div class="uk-container  uk-container-xlarge">
             <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" href="#"><img src="./images/BIOURON.svg" alt="logo Biouron"
-                            width="119" height="28"></a>
-                    <ul class="uk-navbar-nav">
-    <li class="uk-active"><a href="#">Opinie klientów</a></li>
-    <li><a href="#">Jak działa</a></li>
-    <li><a href="#">Oferta</a></li>
-    <li><a href="#">O biouronie</a></li>
-    <li><a href="#">Kontakt</a></li>
+                    <ul class="uk-navbar-nav" data-uk-scrollspy-nav="closest: li; scroll: true">
+    <li class="uk-active"><a class="uk-navbar-item uk-logo" href="#top"><img src="./images/BIOURON.svg"
+                alt="logo Biouron" width="119" height="28"></a></li>
+    <li><a href="#opinie-klientow">Opinie klientów</a></li>
+    <li><a href="#jak-dziala">Jak działa</a></li>
+    <li><a href="#oferta">Oferta</a></li>
+    <li><a href="#o-biouronie">O biouronie</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
 </ul>
                 </div>
             </nav>
@@ -37,18 +37,21 @@
     <!-- offcanvas -->
     <div class="uk-section uk-section-default uk-padding-remove uk-hidden@m uk-position-fixed"
         style="z-index: 2; width: 100%;">
-        <div class="uk-container">
+        <div class="uk-container  uk-container-xlarge">
             <a href="#" data-uk-toggle="target: #offcanvas-nav-primary"><span data-uk-icon="icon: menu;"></span>menu</a>
         </div>
     </div>
     <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-    <li class="uk-active"><a href="#">Opinie klientów</a></li>
-    <li><a href="#">Jak działa</a></li>
-    <li><a href="#">Oferta</a></li>
-    <li><a href="#">O biouronie</a></li>
-    <li><a href="#">Kontakt</a></li>
+            <a href="#" class="uk-offcanvas-close" data-uk-close></a>
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical" data-uk-scrollspy-nav="closest: li; scroll: true">
+    <li class="uk-active"><a class="uk-navbar-item uk-logo" href="#top"><img src="./images/BIOURON.svg"
+                alt="logo Biouron" width="119" height="28"></a></li>
+    <li><a href="#opinie-klientow">Opinie klientów</a></li>
+    <li><a href="#jak-dziala">Jak działa</a></li>
+    <li><a href="#oferta">Oferta</a></li>
+    <li><a href="#o-biouronie">O biouronie</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
 </ul>
         </div>
     </div>
@@ -82,7 +85,7 @@
                                 Wystarczy <span class="biouron-last-color">2 dni</span> żeby zakończyć problem
                                 <span class="biouron-last-color">popuszczania!</span>
                             </h1>
-                            <p>
+                            <p class="uk-text-large">
                                 Tę metodę najczęściej polecają lekarze i farmaceuci a jej skuteczność jest
                                 potwierdzona
                                 przez najlepszych ekspertów!
@@ -101,8 +104,8 @@
     </div>
     <!-- Jak pokazują badania -->
     <div class="uk-section">
-        <div class="uk-container">
-            <div class="uk-card uk-grid-collapse uk-child-width-1-2@m uk-margin" data-uk-grid>
+        <div class="uk-container uk-container-xlarge">
+            <div class="uk-card uk-grid-collapse uk-child-width-1-2@m uk-margin uk-margin-remove-bottom" data-uk-grid>
                 <div class="uk-card-media-left uk-cover-container">
                     <picture>
                         <!-- webp -->
@@ -121,7 +124,7 @@
                 </div>
                 <div>
                     <div class="uk-card-body">
-                        <h2 class="uk-card-title uk-card-title-biouron">Jak pokazują badania problem nietrzymania moczu
+                        <h2 class="uk-card-title-biouron">Jak pokazują badania problem nietrzymania moczu
                             dotyka co szóstą
                             kobietę i co ósmego mężczyznę przed 40. rokiem życia. </h2>
                         <p>Niestety, ma to też wpływ na psychikę, ponieważ bywa on źródłem wstydu, nieśmiałości, a nawet
@@ -142,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-card  uk-grid-collapse uk-child-width-1-2@m uk-margin" data-uk-grid>
+            <div class="uk-card  uk-grid-collapse uk-child-width-1-2@m uk-margin uk-margin-remove-top" data-uk-grid>
                 <div class="uk-flex-last@m uk-card-media-right uk-cover-container">
                     <picture>
                         <!-- webp -->
@@ -161,7 +164,7 @@
                 </div>
                 <div>
                     <div class="uk-card-body">
-                        <h2 class="uk-card-title uk-card-title-biouron">Masz problem z nietrzymaniem moczu? Już teraz
+                        <h2 class="uk-card-title-biouron">Masz problem z nietrzymaniem moczu? Już teraz
                             umów się na konsultację
                             ze specjalistą. </h2>
                         <p>Dlatego nie powinno się zwlekać z wizytą u lekarza. Naglące nietrzymanie moczu charakteryzuje
@@ -194,11 +197,12 @@
         </div>
     </div>
     <!-- Testimonial -->
-    <div class="uk-section">
-        <div class="uk-container">
-            <h2 class="uk-heading-small"><span class="biouron-last-color">Opinie</span> klientów</h2>
+    <div class="uk-section testimonial uk-padding-small">
+        <div class="uk-container  uk-container-xlarge">
+            <h2 id="opinie-klientow" class="uk-heading-small"><span class="biouron-last-color">Opinie</span> klientów
+            </h2>
             <div class="uk-position-relative uk-visible-toggle" tabindex="-1"
-                data-uk-slideshow="animation: fade; min-height: 350; max-height: 400">
+                data-uk-slideshow="animation: fade; min-height: 350; max-height: 400; autoplay: true; autoplay-interval: 3000; pause-on-hover: true">
 
                 <ul class="uk-slideshow-items">
                     <li>
@@ -320,8 +324,8 @@
         </div>
     </div>
     <!-- Doctor -->
-    <div class="uk-section">
-        <div class="uk-container">
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container  uk-container-xlarge">
             <div class="uk-grid-match uk-child-width-expand@m uk-text-left" data-uk-grid>
                 <div>
                     <div class="uk-card uk-card-body">
@@ -348,10 +352,10 @@
         </div>
     </div>
     <!-- Article -->
-    <div class="uk-section">
-        <div class="uk-container">
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container  uk-container-xlarge">
             <article class="uk-article">
-                <h2 class="uk-heading-small biouron-second-color uk-text-center"><span
+                <h2 id="jak-dziala" class="uk-heading-small biouron-second-color uk-text-center"><span
                         class="biouron-last-color">Rozmowa</span> ze
                     specjalistą</h2>
 
@@ -466,7 +470,7 @@
     <!-- CZY WIESZ, ŻE WCALE NIE MUSISZ CIERPIEĆ -->
     <div class="uk-section uk-background-cover uk-height-medium uk-position-relative"
         style="background-image: url(./images/background.jpg);">
-        <div class="uk-container uk-container-xsmall uk-flex uk-flex-center">
+        <div class="uk-container  uk-container-xlarge uk-container  uk-container-xlarge-xsmall uk-flex uk-flex-center">
             <p class="uk-width-xlarge uk-margin uk-background-primary"
                 style="position: absolute; bottom: -30px; color: #fff; padding: 10px; background-color: #72A1AF;">
                 <span
@@ -479,25 +483,27 @@
     </div>
     <!-- Preparat Biouron -->
     <div class="uk-section">
-        <div class="uk-container">
-            <h2 class="uk-heading-small biouron-second-color"><span class="biouron-last-color">Preparat</span> Biouron
+        <div class="uk-container  uk-container-xlarge">
+            <h2 id="oferta" class="uk-heading-small biouron-second-color uk-padding uk-padding-remove-bottom"><span
+                    class="biouron-last-color">Preparat</span> Biouron
             </h2>
             <div class="uk-grid-match uk-child-width-expand@m uk-text-left" data-uk-grid>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <h3>ZGŁOŚ SIĘ PO NAJLEPSZY PREPARAT NA RYNKU NA NIETRZYMANIE MOCZU I ODBIERZ 1 OPAKOWANIE W
-                            CENIE PROMOCYJNEJ 117 zł! </h3>
+                    <div class="uk-card uk-card-body">
+                        <h3 class="uk-text-large">ZGŁOŚ SIĘ PO NAJLEPSZY PREPARAT NA RYNKU NA
+                            NIETRZYMANIE MOCZU I<br> <span class="biouron-last-color">ODBIERZ 1 OPAKOWANIE W
+                                CENIE PROMOCYJNEJ 117 zł! </span></h3>
                         <img src="./images/product.jpg" alt="lekarz w kitlu ze stetoskopem na szyi" width="680"
                             height="465">
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
+                    <div class="uk-card uk-card-body">
                         <p>
                             Preparat jest pozyskiwany laboratoryjnie, w 100% naturalny dlatego jego jakość jest na
                             najwyższym światowym poziomie:
                         </p>
-                        <p>
+                        <p class="uk-text-large biouron-second-color">
                             Aktualnie w związku z programem “Zdrowy pęcherz” dostępny jest jednorazowy rabat - cena
                             początkowa wynosiła 357 złotych, teraz tylko 117 zł!
                         </p>
@@ -506,22 +512,28 @@
                             Wypełnij formularz zamówienia u dołu ekranu.
                             Czas realizacji zamówienia to około 2-3 dni. Potem wszystko zależy od Ciebie!
                         </p>
-                        <p>
+                        <p class="biouron-second-color">
                             Korzystaj regularnie - efekty Cię zaskoczą.
                         </p>
                         <p>
-                            Jeśli produkt nie zadowoli Cię w 100%, odeślij opakowanie, a zwrócimy Ci pieniądze. Jestem
-                            przekonany, że w mniej niż miesiąc pozbędziesz się chronicznego bólu i powrócisz do dawnej
+                            Jeśli produkt nie zadowoli Cię w 100%, odeślij opakowanie, a zwrócimy Ci pieniądze.
+                            Jestem
+                            przekonany, że w mniej niż miesiąc pozbędziesz się chronicznego bólu i powrócisz do
+                            dawnej
                             aktywności.
                         </p>
                         <p>
                             Osoby, które przychodzą do mnie po ratunek, mają już serdecznie dosyć...
                         </p>
-                        <ul class="uk-list uk-list-hyphen">
-                            <li>sięgania po szkodliwe tabletki, </li>
-                            <li>wydawania fortuny na wkłady higieniczne </li>
-                            <li>nieprzespanych nocy przez ciągle chodzenie do toalety </li>
-                            <li>złego samopoczucia psychicznego i przykrego zapachu</li>
+                        <ul class="uk-list">
+                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>sięgania po szkodliwe
+                                tabletki, </li>
+                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>wydawania fortuny na
+                                wkłady higieniczne </li>
+                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>nieprzespanych nocy
+                                przez ciągle chodzenie do toalety </li>
+                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>złego samopoczucia
+                                psychicznego i przykrego zapachu</li>
                         </ul>
                     </div>
                 </div>
@@ -529,11 +541,14 @@
         </div>
     </div>
     <!-- NATURALNE SKŁADNIKI BIOURONU SPRAWIĄ ŻE SZYBKO ODZYSKASZ DAWNE ŻYCIE -->
-    <div class="uk-section">
-        <div class="uk-container">
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container  uk-container-xlarge">
             <div class="uk-child-width-expand@m" data-uk-grid>
                 <div class="uk-grid-item-match">
-                    <h2>NATURALNE SKŁADNIKI BIOURONU SPRAWIĄ ŻE SZYBKO ODZYSKASZ DAWNE ŻYCIE I PEWNOŚĆ SIEBIE, CO DAJE
+                    <h2 id="o-biouronie" class="uk-text-large biouron-second-color">NATURALNE SKŁADNIKI BIOURONU SPRAWIĄ
+                        ŻE SZYBKO
+                        ODZYSKASZ DAWNE ŻYCIE I
+                        PEWNOŚĆ SIEBIE, CO DAJE
                         STOSOWANIE PREPARATU.
                     </h2>
                 </div>
@@ -541,33 +556,37 @@
             </div>
             <div class="uk-grid-match uk-child-width-expand@m" data-uk-grid>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-flex uk-flex-middle">
-                            <img src="./images/urinary-tract.svg" alt="układ moczowy" width="48" height="48">
+                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                        <div class="uk-flex uk-flex-top">
+                            <img src="./images/urinary-tract.svg" alt="układ moczowy" width="48" height="48"
+                                class="uk-margin-right">
                             <div>WZMOCNIENIE CAŁEGO UKŁADU MOCZOWEGO</div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-flex uk-flex-middle">
-                            <img src="./images/hips.svg" alt="układ moczowy" width="48" height="48">
+                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                        <div class="uk-flex uk-flex-top">
+                            <img src="./images/hips.svg" alt="układ moczowy" width="48" height="48"
+                                class="uk-margin-right">
                             <div>WZMOCNIENIE MIĘŚNI DNA MIEDNICY</div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-flex uk-flex-middle">
-                            <img src="./images/flow.svg" alt="układ moczowy" width="48" height="48">
+                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                        <div class="uk-flex uk-flex-top">
+                            <img src="./images/flow.svg" alt="układ moczowy" width="48" height="48"
+                                class="uk-margin-right">
                             <div>ZNACZNE ZMNIEJSZENIE A NAWET CAŁKOWITE ZLIKWIDOWANIE POPUSZCZANIA I CZĘSTOMOCZU</div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-flex uk-flex-middle">
-                            <img src="./images/dream.svg" alt="układ moczowy" width="48" height="48">
+                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                        <div class="uk-flex uk-flex-top">
+                            <img src="./images/dream.svg" alt="układ moczowy" width="48" height="48"
+                                class="uk-margin-right">
                             <div>PRZESYPIANIE NOCY BEZ BUDZENIA SIĘ DO TOALETY</div>
                         </div>
                     </div>
@@ -577,7 +596,7 @@
     </div>
     <!-- Informacje na temat naszego produktu Biouron -->
     <div class="uk-section uk-background-cover" style="background-image: url(./images/background.jpg);">
-        <div class="uk-container">
+        <div class="uk-container  uk-container-xlarge">
             <h2>
                 Informacje na temat naszego produktu Biouron
             </h2>
@@ -600,7 +619,7 @@
     </div>
     <!-- Nietrzymanie moczu / częstomocz  -->
     <div class="uk-section">
-        <div class="uk-container">
+        <div class="uk-container  uk-container-xlarge">
             <h2>Nietrzymanie moczu / częstomocz </h2>
             <p>
                 Nietrzymanie moczu to dolegliwość wstydliwa i niezwykle uciążliwa. Problem z trzymaniem moczu znacznie
@@ -670,7 +689,7 @@
     </div>
     <div class="uk-section uk-background-cover uk-height-medium"
         style="background-image: url(./images/background-2.jpg);">
-        <div class="uk-container uk-container-xsmall uk-flex uk-flex-center">
+        <div class="uk-container  uk-container-xlarge uk-container  uk-container-xlarge-xsmall uk-flex uk-flex-center">
             <p class="uk-width-large uk-margin">
                 Prawidłowe dobranie przez Naszego Specjalistę indywidualnej kuracji oraz regularne stosowanie
                 prawdopodobnie przyczyni się pozytywnego wpływu na funkcjonowanie organizmu nawet po zakończonej
@@ -679,12 +698,12 @@
         </div>
     </div>
     <!-- formularz kontaktowy -->
-    <div class="uk-section">
-        <div class="uk-container">
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container  uk-container-xlarge">
             <div class="uk-grid-match uk-child-width-expand@m uk-text-left" data-uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body">
-                        <h2>Formularz
+                        <h2 id="kontakt">Formularz
                             kontaktowy
                         </h2>
                         <p>
@@ -731,8 +750,8 @@
             </div>
         </div>
     </div>
-    <div class="uk-section uk-background-primary">
-        <div class="uk-container uk-text-center" style="color: #fff">
+    <div class="uk-section" style="background-color: #72A1AF;">
+        <div class="uk-container  uk-container-xlarge uk-text-center" style="color: #fff">
             <p>Copyright by Biouron 2021. All rights reserved.</p>
         </div>
     </div>

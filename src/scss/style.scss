@@ -45,7 +45,7 @@ body {
     color: #fff;
 }
 
-.uk-card-default .uk-card-title.uk-card-title-biouron {
+.uk-card-title-biouron {
     color: $biouron-second-color;
     font-size: 25px;
 }
@@ -68,4 +68,24 @@ body {
 
 .uk-dotnav>.uk-active>* {
     background-color: $biouron-second-color;
+}
+
+.testimonial {
+    background-color: #F7F7F7;
+}
+
+
+.uk-navbar-container .uk-active:not(:first-of-type) {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 2px;
+        background-color: $biouron-last-color;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+    }
 }
