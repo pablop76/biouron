@@ -1,0 +1,71 @@
+// 1. Your custom variables and variable overwrites.
+// $global-link-color: #DA7D02;
+
+// 2. Import default variables and available mixins.
+@import "node_modules/uikit/src/scss/variables-theme.scss";
+@import "node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+// @mixin hook-card() {
+//     color: #000;
+// }
+
+// 4. Import UIkit.
+@import "node_modules/uikit/src/scss/uikit-theme.scss";
+@import "./variables";
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2 {
+    &.uk-heading-small {
+        font-family: 'Playfair Display', serif;
+        font-size: 60px;
+    }
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.biouron-last-color {
+    color: $biouron-last-color;
+}
+
+.biouron-second-color {
+    color: $biouron-second-color;
+}
+
+
+.uk-button-biouron {
+    background-color: $biouron-last-color;
+    color: #fff;
+}
+
+.uk-card-default .uk-card-title.uk-card-title-biouron {
+    color: $biouron-second-color;
+    font-size: 25px;
+}
+
+.uk-list {
+    span {
+        color: $biouron-second-color;
+    }
+}
+
+.arrow {
+    background-color: $biouron-second-color;
+    color: #fff;
+}
+
+.uk-dotnav>*>* {
+    background-color: lighten($biouron-second-color, 20%);
+    border: transparent;
+}
+
+.uk-dotnav>.uk-active>* {
+    background-color: $biouron-second-color;
+}

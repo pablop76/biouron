@@ -1,0 +1,41 @@
+{
+  "name": "health-lab",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablop76/biouron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablop76/biouron/issues"
+  },
+  "homepage": "https://github.com/pablop76/biouron#readme",
+  "dependencies": {
+    "gulp-html": "^3.4.2",
+    "uikit": "^3.7.2"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sharp-responsive": "^0.3.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.37.5",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
