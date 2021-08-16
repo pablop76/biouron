@@ -19,16 +19,22 @@
     height: auto;
 }
 
+.banner {
+    min-height: 500px;
+    background-color: #A8D6E5;
+}
+
 h1,
 h2 {
     &.uk-heading-small {
         font-family: 'Playfair Display', serif;
-        font-size: 60px;
+        font-size: 30px;
     }
 }
 
 body {
     font-family: 'Barlow', sans-serif;
+    color: #000;
 }
 
 .biouron-last-color {
@@ -51,14 +57,15 @@ body {
 }
 
 .uk-list {
-    span {
+    span:first-of-type {
         color: $biouron-second-color;
     }
 }
 
 .arrow {
-    background-color: $biouron-second-color;
+    background-color: $biouron-lightsecond-color;
     color: #fff;
+    padding: 10px 15px;
 }
 
 .uk-dotnav>*>* {
@@ -88,4 +95,125 @@ body {
         left: 50%;
         transform: translate(-50%);
     }
+}
+
+.pollakiuria {
+    h3 {
+        color: $biouron-second-color;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .uk-card {
+        background-color: $biouron-background-color;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.underscore {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: "";
+        width: 80px;
+        height: 3px;
+        background-color: #A25E8B;
+        bottom: -15px;
+        left: calc(50% - 40px);
+    }
+}
+
+.underscore-left {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: "";
+        width: 80px;
+        height: 3px;
+        background-color: #A25E8B;
+        bottom: -15px;
+        left: 0;
+    }
+}
+
+@media (min-width:640px) {
+
+    h1,
+    h2 {
+        &.uk-heading-small {
+            font-family: 'Playfair Display', serif;
+            font-size: 60px;
+        }
+    }
+}
+
+/* walidacja formularza*/
+.form-error {
+    display: none;
+}
+
+.form-error-text {
+    display: block;
+    position: absolute;
+    color: #c02020;
+}
+
+.uk-input,
+.uk-select,
+.uk-textarea {
+    background: #F7F7F7;
+    color: #666;
+    border: 1px solid transparent;
+}
+
+input:invalid.field-error-input {
+    border-color: #c02020;
+    outline: none;
+    box-shadow: 0 0 2px #c02020;
+}
+
+input:required:valid {
+    border-color: #12b63b;
+    outline: none;
+    box-shadow: 0 0 2px #12b63b;
+}
+
+.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.loading:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-right-color: rgba(0, 0, 0, 0.7);
+    transform: translate(-50%, -50%) rotate(0deg);
+    content: "";
+    animation: rotateSingleLoading 0.3s infinite linear;
+    z-index: 999;
+}
+
+@keyframes rotateSingleLoading {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.honey {
+    display: none;
 }

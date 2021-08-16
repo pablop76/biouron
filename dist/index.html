@@ -5,20 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preparat BIOURON. Odbierz jedno opakowanie w cenie promocyjnej 117 zł!">
+    <title>Biouron</title>
+    <meta name="description" content="Wystarczy 2 dni żeby zakończyć problem popuszczania!">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Playfair+Display&display=swap"
         rel="stylesheet">
     <!-- UIkit CSS -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" /> -->
-    <link rel="stylesheet" href="./css/style.css" type="text/css">
-    <title>Biouron</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen">
+    <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
+    <meta name="robots" content="noindex,nofollow">
+    <!-- opengraf -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Biouron">
+    <meta property="og:url" content="https://web-service.com.pl/biouron/">
+    <meta property="og:image" content="https://web-service.com.pl/biouron/images/biouron.jpg">
+    <meta property="og:description" content="ZGŁOŚ SIĘ PO NAJLEPSZY PREPARAT NA RYNKU NA
+NIETRZYMANIE MOCZU I ODBIERZ 1 OPAKOWANIE W CENIE PROMOCYJNEJ 117 zł!">
+    <meta property="product:plural_title" content="">
+    <meta property="product:price.amount" content="117">
+    <meta property="product:price.currency" content="PLN">
 </head>
 
 <body id="top">
     <!-- navbar -->
-    <div class="uk-section uk-section-default uk-padding-remove uk-visible@m">
-        <div class="uk-container  uk-container-xlarge">
+    <div class="uk-section uk-section-default uk-padding-remove uk-visible@m"
+        data-uk-sticky="show-on-up: true;animation: uk-animation-slide-top">
+        <div class="uk-container  uk-container-large">
             <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
                 <div class="uk-navbar-left">
                     <ul class="uk-navbar-nav" data-uk-scrollspy-nav="closest: li; scroll: true">
@@ -38,7 +53,8 @@
     <div class="uk-section uk-section-default uk-padding-remove uk-hidden@m uk-position-fixed"
         style="z-index: 2; width: 100%;">
         <div class="uk-container  uk-container-xlarge">
-            <a href="#" data-uk-toggle="target: #offcanvas-nav-primary"><span data-uk-icon="icon: menu;"></span>menu</a>
+            <a href="#" data-uk-toggle="target: #offcanvas-nav-primary" class="uk-link-reset"><span
+                    data-uk-icon="icon: menu;"></span>menu</a>
         </div>
     </div>
     <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true">
@@ -56,43 +72,44 @@
         </div>
     </div>
     <!-- banner -->
-    <div class="banner uk-position-relative uk-visible@m">
-        <picture>
+    <div class="banner uk-position-relative">
+        <picture class="uk-visible@m">
             <!-- webp -->
-            <source class="img-responsive" srcset="./images/banner-biouron-sm.webp" media="(max-width: 640px)"
+            <source class="img-responsive" srcset="./images/baner-sm.webp" media="(max-width: 640px)"
                 type="image/webp" />
-            <source class="img-responsive" srcset="./images/banner-biouron-md.webp" media="(max-width: 768px)"
+            <source class="img-responsive" srcset="./images/baner-md.webp" media="(max-width: 768px)"
                 type="image/webp" />
-            <source class="img-responsive" srcset="./images/banner-biouron-lg.webp" media="(max-width: 1024px)"
+            <source class="img-responsive" srcset="./images/baner-lg.webp" media="(max-width: 1024px)"
                 type="image/webp" />
-            <!-- jpeg -->
-            <source class="img-responsive" srcset="./images/banner-biouron-sm.jpeg" media="(max-width: 640px)"
-                type="image/jpeg" />
-            <source class="img-responsive" srcset="./images/banner-biouron-md.jpeg" media="(max-width: 768px)"
-                type="image/jpeg" />
-            <source class="img-responsive" srcset="./images/banner-biouron-lg.jpeg" media="(max-width: 1024px)"
-                type="image/jpeg" />
+            <!-- jpg -->
+            <source class="img-responsive" srcset="./images/baner-sm.jpg" media="(max-width: 640px)" type="image/jpg" />
+            <source class="img-responsive" srcset="./images/baner-md.jpg" media="(max-width: 768px)" type="image/jpg" />
+            <source class="img-responsive" srcset="./images/baner-lg.jpg" media="(max-width: 1024px)"
+                type="image/jpg" />
             <!-- original -->
-            <img src="./images/banner-biouron.jpg" class="img-responsive" alt="kobieta z bolacym brzuchem" width="1920"
-                height="791" />
+            <img data-src="./images/baner.jpg" class="img-responsive" alt="kobieta z bolacym brzuchem" width="1920"
+                height="791" data-uk-img />
         </picture>
         <div class="uk-position-center">
             <div class="uk-grid-match uk-child-width-expand@m uk-text-center" data-uk-grid>
                 <div class="uk-width-1-2@m">
                     <div class="uk-card uk-card-body">
                         <div>
-                            <h1 class="uk-heading-small">
+                            <h1 class="uk-heading-small underscore">
                                 Wystarczy <span class="biouron-last-color">2 dni</span> żeby zakończyć problem
                                 <span class="biouron-last-color">popuszczania!</span>
                             </h1>
-                            <p class="uk-text-large">
+                            <p class="uk-text-large uk-margin-large">
                                 Tę metodę najczęściej polecają lekarze i farmaceuci a jej skuteczność jest
                                 potwierdzona
                                 przez najlepszych ekspertów!
                             </p>
-                            <p data-uk-margin>
-                                <a class="uk-button uk-button-biouron" href="#">KONTAKT</a>
-                            </p>
+
+                            <button class="uk-button uk-button-biouron">
+                                <a href="#kontakt" data-uk-scroll="#kontakt"
+                                    class="uk-flex uk-flex-middle uk-link-reset">KONTAKT
+                                    <span data-uk-icon="chevron-right" class="uk-margin-small-left"></span></a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -103,24 +120,24 @@
         </div>
     </div>
     <!-- Jak pokazują badania -->
-    <div class="uk-section">
+    <div class="uk-sectioimage2">
         <div class="uk-container uk-container-xlarge">
             <div class="uk-card uk-grid-collapse uk-child-width-1-2@m uk-margin uk-margin-remove-bottom" data-uk-grid>
                 <div class="uk-card-media-left uk-cover-container">
                     <picture>
                         <!-- webp -->
-                        <source srcset="./images/woman-sm.webp" media="(max-width: 640px)" type="image/webp" />
-                        <source srcset="./images/woman-md.webp" media="(max-width: 768px)" type="image/webp" />
-                        <source srcset="./images/woman-lg.webp" media="(max-width: 1024px)" type="image/webp" />
-                        <!-- jpeg -->
-                        <source srcset="./images/woman-sm.jpeg" media="(max-width: 640px)" type="image/jpeg" />
-                        <source srcset="./images/woman-md.jpeg" media="(max-width: 768px)" type="image/jpeg" />
-                        <source srcset="./images/woman-lg.jpeg" media="(max-width: 1024px)" type="image/jpeg" />
+                        <source srcset="./images/image1-sm.webp" media="(max-width: 640px)" type="image/webp" />
+                        <source srcset="./images/image1-md.webp" media="(max-width: 768px)" type="image/webp" />
+                        <source srcset="./images/image1-lg.webp" media="(max-width: 1024px)" type="image/webp" />
+                        <!-- jpg -->
+                        <source srcset="./images/image1-sm.jpg" media="(max-width: 640px)" type="image/jpg" />
+                        <source srcset="./images/image1-md.jpg" media="(max-width: 768px)" type="image/jpg" />
+                        <source srcset="./images/image1-lg.jpg" media="(max-width: 1024px)" type="image/jpg" />
                         <!-- original -->
-                        <img src="./images/woman.jpg" width="960" height="584" class="img-responsive"
-                            alt="kobieta trzymajaca sie za bolący brzuch" data-uk-cover />
+                        <img data-src="./images/image1.jpg" width="960" height="584" class="img-responsive"
+                            alt="kobieta trzymajaca sie za bolący brzuch" data-uk-cover data-uk-img />
                     </picture>
-                    <canvas width="600" height="400"></canvas>
+                    <canvas width="690" height="584"></canvas>
                 </div>
                 <div>
                     <div class="uk-card-body">
@@ -133,13 +150,17 @@
                             podłogi albo wybuch śmiechu skończył się krępującym incydentem i plamą na bieliźnie.
                         </p>
                         <p>Nietrzymanie moczu, definiowane jest jako niezamierzone i odbywające się wbrew naszej woli
-                            częściowe lub całkowite opróżnienie pęcherza moczowego. Problem z nietrzymaniem moczu
-                            uważany jest za jedną z najczęstszych przewlekłych chorób kobiecych, choć w dużym stopniu
-                            dotyczy też mężczyzn</p>
+                            częściowe lub całkowite opróżnienie pęcherza moczowego. <span class="uk-text-bold">Problem z
+                                nietrzymaniem moczu
+                                uważany jest za jedną z najczęstszych przewlekłych chorób kobiecych, choć w dużym
+                                stopniu
+                                dotyczy też mężczyzn</span></p>
                         <p>
                             Jeśli na którymś z etapów tego procesu występują jakieś nieprawidłowości, pojawia się
-                            problem z trzymaniem moczu. Nietrzymanie moczu zwykle dotyczy kobiet po 40. roku życia –
-                            zmaga się z nim nawet 1 kobieta na 5 w tym przedziale wiekowym. Coraz częściej jednak
+                            problem z trzymaniem moczu. <span class="uk-text-bold">Nietrzymanie moczu zwykle dotyczy
+                                kobiet po 40. roku życia –
+                                zmaga się z nim nawet 1 kobieta na 5 w tym przedziale wiekowym.</span> Coraz częściej
+                            jednak
                             diagnozuje się też nietrzymanie moczu w młodym wieku.
                         </p>
                     </div>
@@ -149,18 +170,18 @@
                 <div class="uk-flex-last@m uk-card-media-right uk-cover-container">
                     <picture>
                         <!-- webp -->
-                        <source srcset="./images/men-sm.webp" media="(max-width: 640px)" type="image/webp" />
-                        <source srcset="./images/men-md.webp" media="(max-width: 768px)" type="image/webp" />
-                        <source srcset="./images/men-lg.webp" media="(max-width: 1024px)" type="image/webp" />
-                        <!-- jpeg -->
-                        <source srcset="./images/men-sm.jpeg" media="(max-width: 640px)" type="image/jpeg" />
-                        <source srcset="./images/men-md.jpeg" media="(max-width: 768px)" type="image/jpeg" />
-                        <source srcset="./images/men-lg.jpeg" media="(max-width: 1024px)" type="image/jpeg" />
+                        <source srcset="./images/image2-sm.webp" media="(max-width: 640px)" type="image/webp" />
+                        <source srcset="./images/image2-md.webp" media="(max-width: 768px)" type="image/webp" />
+                        <source srcset="./images/image2-lg.webp" media="(max-width: 1024px)" type="image/webp" />
+                        <!-- jpg -->
+                        <source srcset="./images/image2-sm.jpg" media="(max-width: 640px)" type="image/jpg" />
+                        <source srcset="./images/image2-md.jpg" media="(max-width: 768px)" type="image/jpg" />
+                        <source srcset="./images/image2-lg.jpg" media="(max-width: 1024px)" type="image/jpg" />
                         <!-- original -->
-                        <img src="./images/men.jpg" width="960" height="584" class="img-responsive"
-                            alt="męższczyzna ogladający wyniki badań medycznych" data-uk-cover />
+                        <img data-src="./images/image2.jpg" width="960" height="657" class="img-responsive"
+                            alt="męższczyzna ogladający wyniki badań medycznych" data-uk-cover data-uk-img />
                     </picture>
-                    <canvas width="600" height="400"></canvas>
+                    <canvas width="960" height="657"></canvas>
                 </div>
                 <div>
                     <div class="uk-card-body">
@@ -171,16 +192,21 @@
                             się występowaniem:
                         </p>
                         <ul class="uk-list">
-                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>Częstomoczu – potrzebą
+                            <li>
+                                <span class="uk-margin-small-right" data-uk-icon="check"></span><span
+                                    class="uk-text-bold">Częstomoczu</span> – potrzebą
                                 oddania moczu minimum 8 razy w ciągu dnia </li>
-                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>Nykturii – potrzebą
+                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span><span
+                                    class="uk-text-bold">Nykturii</span> – potrzebą
                                 oddania
                                 moczu w nocy minimum dwa razy</li>
-                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>Parć naglących – silnie
+                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span><span
+                                    class="uk-text-bold">Parć naglących</span> – silnie
                                 odczuwanych niezależnie od wypełnienia pęcherza</li>
-                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span>Wycieków moczu
-                                poprzedzonych
-                                parciem</li>
+                            <li><span class="uk-margin-small-right" data-uk-icon="check"></span><span
+                                    class="uk-text-bold">Wycieków moczu
+                                    poprzedzonych
+                                    parciem</span></li>
                         </ul>
                         <p>
                             Może zdarzyć się, iż popuszczanie moczu następuje podczas kichania czy kaszlu. Wskazywałoby
@@ -188,38 +214,43 @@
                             występowanie bądź niewystępowanie parć naglących.
                         </p>
                         <p>Jeżeli zdarza Ci się samoistne popuszczanie, kropelkowanie, budzenie się kilka razy w nocy do
-                            toalety, NIE ZWLEKAJ, TO PRODUKT DLA CIEBIE!</p>
+                            toalety, <span class="uk-text-bold">NIE ZWLEKAJ, TO PRODUKT DLA CIEBIE!</span></p>
                         <p>Oferujemy najlepszy preparat który ma za zadanie poprawić jakość życia u osób cierpiących na
-                            wysiłkowe lub naglące nietrzymanie moczu</p>
+                            wysiłkowe lub naglące nietrzymanie moczu.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Testimonial -->
-    <div class="uk-section testimonial uk-padding-small">
+    <!-- <div class="uk-section testimonial uk-padding-small">
         <div class="uk-container  uk-container-xlarge">
-            <h2 id="opinie-klientow" class="uk-heading-small"><span class="biouron-last-color">Opinie</span> klientów
+            <h2 id="opinie-klientow" class="uk-heading-small underscore-left"><span
+                    class="biouron-last-color">Opinie</span> klientów
             </h2>
             <div class="uk-position-relative uk-visible-toggle" tabindex="-1"
-                data-uk-slideshow="animation: fade; min-height: 350; max-height: 400; autoplay: true; autoplay-interval: 3000; pause-on-hover: true">
+                data-uk-slideshow="ratio: 7:3 animation: fade; min-height: 450;  autoplay: true; autoplay-interval: 3000; pause-on-hover: true">
 
                 <ul class="uk-slideshow-items">
                     <li>
                         <div class="uk-grid-match" data-uk-grid>
-                            <div class="uk-width-1-3@m">
+                            <div class="uk-width-1-3@m uk-visible@m">
                                 <div class="uk-card uk-card-body uk-text-center ">
-                                    <img src="./images/testimonial.jpg" alt="kobieta w srednim wieku" width="350"
-                                        height="350">
+                                    <img data-src="./images/maria.jpg" alt="kobieta w srednim wieku" width="328"
+                                        height="328" data-uk-img>
                                 </div>
                             </div>
                             <div class="uk-width-expand@m">
                                 <div class="uk-card uk-card-body">
-                                    <h2 class="uk-text-default">1 Nawet przy mocnym wysiłku nie czuję
-                                        konieczności
-                                        biegania do toalety.
-                                    </h2>
-                                    <p class="uk-text-small">Mam na imię Maria. Od ok. 6 lat borykałam się z problemem
+                                    <p class="uk-text-small">
+                                        <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                                class="uk-margin-small-right">
+                                            To
+                                            ogromna ulga
+                                            i dziękuję po dzień
+                                            dzisiejszy siostrze, że
+                                            poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.</h3>
+                                        Mam na imię Maria. Od ok. 6 lat borykałam się z problemem
                                         nietrzymania
                                         moczu. Zaczęło się od pracy, podczas wysiłku czułam nagłe parcie na
                                         pęcherz i samoistne popuszczanie bez szans na dobiegnięcie do toalety.
@@ -230,10 +261,13 @@
                                         specjalistów, począwszy od lekarzy pierwszego kontaktu, skończywszy na
                                         urologach, wydałam majątek na leki które nie pomagały. Kiedy
                                         powiedziałam siostrze o co chodzi, ona od razu wyjęła z torebki kapsułki
-                                        i kazała natychmiast zacząć stosować. Po miesiącu od tamtego momentu
-                                        mogłam już przesypiać całą noc bez budzenia się z mokrą pościelą, a w
-                                        tym momencie nawet przy mocnym wysiłku nie czuję konieczności biegania
-                                        do toalety. To ogromna ulga i dziękuję po dzień dzisiejszy siostrze, że
+                                        i kazała natychmiast zacząć stosować.
+                                        <span class="uk-text-bold">
+                                            Po miesiącu od tamtego momentu
+                                            mogłam już przesypiać całą noc bez budzenia się z mokrą pościelą, a w
+                                            tym momencie nawet przy mocnym wysiłku nie czuję konieczności biegania
+                                            do toalety.</span> To ogromna ulga i dziękuję po dzień dzisiejszy siostrze,
+                                        że
                                         poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.
                                     </p>
                                     <p>Pani Maria - Gdańsk</p>
@@ -243,83 +277,272 @@
                     </li>
                     <li>
                         <div class="uk-grid-match" data-uk-grid>
-                            <div class="uk-width-1-3@m">
+                            <div class="uk-width-1-3@m uk-visible@m">
                                 <div class="uk-card uk-card-body uk-text-center ">
-                                    <img src="./images/testimonial.jpg" alt="kobieta w srednim wieku" width="350"
-                                        height="350">
+                                    <img data-src="./images/marek.jpg" alt="męższczyzna w srednim wieku" width="300"
+                                        height="300" data-uk-img>
                                 </div>
                             </div>
                             <div class="uk-width-expand@m">
                                 <div class="uk-card uk-card-body">
-                                    <h2 class="uk-text-default">2 Nawet przy mocnym wysiłku nie czuję
-                                        konieczności
-                                        biegania do toalety.
-                                    </h2>
-                                    <p class="uk-text-small">Mam na imię Maria. Od ok. 6 lat borykałam się z problemem
-                                        nietrzymania
-                                        moczu. Zaczęło się od pracy, podczas wysiłku czułam nagłe parcie na
-                                        pęcherz i samoistne popuszczanie bez szans na dobiegnięcie do toalety.
-                                        Później było już tylko gorzej, kiedy nie przesypiałam całej nocy, a
-                                        parcie na pęcherz budziło mnie 3-4 razy w nocy do toalety. Chodziłam
-                                        zmęczona i zmartwiona a znajomi i rodzina nie wiedzieli co się dzieje,
-                                        ponieważ nie chciałam mówić im o tym problemie. Chodziłam do różnych
-                                        specjalistów, począwszy od lekarzy pierwszego kontaktu, skończywszy na
-                                        urologach, wydałam majątek na leki które nie pomagały. Kiedy
-                                        powiedziałam siostrze o co chodzi, ona od razu wyjęła z torebki kapsułki
-                                        i kazała natychmiast zacząć stosować. Po miesiącu od tamtego momentu
-                                        mogłam już przesypiać całą noc bez budzenia się z mokrą pościelą, a w
-                                        tym momencie nawet przy mocnym wysiłku nie czuję konieczności biegania
-                                        do toalety. To ogromna ulga i dziękuję po dzień dzisiejszy siostrze, że
-                                        poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.
+                                    <p class="uk-text-small">
+                                        <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                                class="uk-margin-small-right">
+                                            W końcu trafiłem na
+                                            świetnego specjalistę, który od razu zalecił mi stosowanie Biouronu, i
+                                            uwierzcie
+                                            już po 2 tygodniach zauważyłem ogromną poprawę!</h3>
+                                        Nazywam się Marek, mój wstydliwy problem zaczął się ok. 2
+                                        lat temu, kiedy pewnego dnia poszedłem na spotkanie z kolegami i przy nagłej
+                                        zmianie temperatury poczułem ciepło w spodniach, poszedłem do łazienki i
+                                        zauważyłem plamę na bieliźnie. W tamtym momencie nie wiedziałem o co chodzi, ale
+                                        niestety to był dopiero początek, później było coraz gorzej. Kiedy to przy
+                                        wstawaniu po dłuższym odpoczynku na kanapie, nie mogłem dobiec do toalety,
+                                        popuszczając, bądź też kiedy budziłem się rano i widziałem przemoczoną pościel -
+                                        byłem załamany. Od razu po wykryciu problemu poszedłem do swojego urologa, który
+                                        przez rok zmieniał mi leki i NIC nie pomagało, problem się bardziej pogłębiał a
+                                        ja byłem w coraz gorszym stanie psychicznym, ponieważ wyjście z kolegami i
+                                        przesiedzenia 2h bez biegania do toalety było niemożliwe. W końcu trafiłem na
+                                        świetnego specjalistę, który od razu zalecił mi stosowanie Biouronu, i uwierzcie
+                                        już po 2 tygodniach zauważyłem ogromną poprawę! Mogłem siedzieć 3 godziny bez
+                                        konieczności myślenia o toalecie, a na ten moment nie ma nawet mowy o
+                                        przemoczonej bieliźnie czy pościeli. <span class="uk-text-bold">Odzyskałem swoje
+                                            dawne życie.</span>
                                     </p>
-                                    <p>Pani Maria - Gdańsk</p>
+                                    <p>Pan Marek - Sosnowiec.</p>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="uk-grid-match" data-uk-grid>
-                            <div class="uk-width-1-3@m">
+                            <div class="uk-width-1-3@m uk-visible@m">
                                 <div class="uk-card uk-card-body uk-text-center ">
-                                    <img src="./images/testimonial.jpg" alt="kobieta w srednim wieku" width="350"
-                                        height="350">
+                                    <img data-src="./images/krystyna.jpg" alt="kobieta w srednim wieku" width="300"
+                                        height="300" data-uk-img>
                                 </div>
                             </div>
                             <div class="uk-width-expand@m">
                                 <div class="uk-card uk-card-body">
-                                    <h2 class="uk-text-default">3 Nawet przy mocnym wysiłku nie czuję
-                                        konieczności
-                                        biegania do toalety.
-                                    </h2>
-                                    <p class="uk-text-small">Mam na imię Maria. Od ok. 6 lat borykałam się z problemem
-                                        nietrzymania
-                                        moczu. Zaczęło się od pracy, podczas wysiłku czułam nagłe parcie na
-                                        pęcherz i samoistne popuszczanie bez szans na dobiegnięcie do toalety.
-                                        Później było już tylko gorzej, kiedy nie przesypiałam całej nocy, a
-                                        parcie na pęcherz budziło mnie 3-4 razy w nocy do toalety. Chodziłam
-                                        zmęczona i zmartwiona a znajomi i rodzina nie wiedzieli co się dzieje,
-                                        ponieważ nie chciałam mówić im o tym problemie. Chodziłam do różnych
-                                        specjalistów, począwszy od lekarzy pierwszego kontaktu, skończywszy na
-                                        urologach, wydałam majątek na leki które nie pomagały. Kiedy
-                                        powiedziałam siostrze o co chodzi, ona od razu wyjęła z torebki kapsułki
-                                        i kazała natychmiast zacząć stosować. Po miesiącu od tamtego momentu
-                                        mogłam już przesypiać całą noc bez budzenia się z mokrą pościelą, a w
-                                        tym momencie nawet przy mocnym wysiłku nie czuję konieczności biegania
-                                        do toalety. To ogromna ulga i dziękuję po dzień dzisiejszy siostrze, że
-                                        poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.
+                                    <p class="uk-text-small">
+                                        <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                                class="uk-margin-small-right">
+                                            Stosowałam
+                                            mnóstwo leków i zabiegów które nie przynosiły efektów, do momentu kiedy nie
+                                            trafiłam na Biouron.</h3>
+                                        Po 25 latach mojej kariery w szkole, kiedy to przeszłam na
+                                        emeryturę z zamiarem odpoczynku, nie wiedziałam że wtedy zacznie się mój
+                                        koszmar. Po operacji ginekologicznej mój pęcherz przestał pracować jak
+                                        dotychczas i zdiagnozowano u mnie napięciowe nietrzymanie moczu. Stosowałam
+                                        mnóstwo leków i zabiegów które nie przynosiły efektów, do momentu kiedy nie
+                                        trafiłam na Biouron. To znajoma urolożka, kiedy dowiedziała się o moim problemie
+                                        od razu zaleciła mi stosowanie tego preparatu, a ja nie mogłam uwierzyć jak już
+                                        po 2 tygodniach przestałam popuszczać, <span class="uk-text-bold">
+                                            nie musiałam
+                                            już nosić wkładek i przede
+                                            wszystkim mogłam cieszyć się z zabawy z wnukami bez przykrych zapachów i
+                                            biegania do toalety!</span>
                                     </p>
-                                    <p>Pani Maria - Gdańsk</p>
+                                    <p>Pani Krystyna - Wadowice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-grid-match" data-uk-grid>
+                            <div class="uk-width-1-3@m uk-visible@m">
+                                <div class="uk-card uk-card-body uk-text-center ">
+                                    <img data-src="./images/kasia.jpg" alt="kobieta w srednim wieku" width="300"
+                                        height="300" data-uk-img>
+                                </div>
+                            </div>
+                            <div class="uk-width-expand@m">
+                                <div class="uk-card uk-card-body">
+                                    <p class="uk-text-small">
+                                        <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                                class="uk-margin-small-right">
+                                            Na moje szczęście problem nie trwał
+                                            długo, ponieważ z polecenia znajomej trafiłam do najlepszego specjalisty a
+                                            on od
+                                            razu zalecił mi 2 miesiące stosowania BioUronu.</h3>
+                                        Miałam 42 lata, kiedy urodziłam ostatniego syna i właśnie
+                                        wtedy zaczęły się moje niechciane problemy z układem moczowym. Kiedy mój lekarz
+                                        powiedział mi, że to normalne że po trójce dzieci nie będę utrzymywała moczu i
+                                        do końca życia będę musiała nosić podpaski, byłam totalnie załamana a moje życie
+                                        straciło sens, przecież byłam jeszcze młoda! Na moje szczęście problem nie trwał
+                                        długo, ponieważ z polecenia znajomej trafiłam do najlepszego specjalisty a on od
+                                        razu zalecił mi 2 miesiące stosowania BioUronu. <span class="uk-text-bold">Po
+                                            dzień dzisiejszy dziękuję
+                                            znajomej ponieważ to uratowało moje życie przed ciągłym bieganiem do
+                                            toalety, a
+                                            mąż jest szczęśliwy ponieważ znowu mamy udane życie seksualne! Będę polecała
+                                            każdemu z podobnym problemem.</span>
+                                    </p>
+                                    <p>Pani Kasia - Siemiatycze</p>
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
 
-                <a class="arrow uk-position-center-left-out uk-position-small" href="#" data-uk-slidenav-previous
-                    data-uk-slideshow-item="previous"></a>
-                <a class="arrow uk-position-center-right-out uk-position-small" href="#" data-uk-slidenav-next
-                    data-uk-slideshow-item="next"></a>
+                <a class="arrow uk-position-center-left-out uk-position-small uk-visible@xl" href="#"
+                    data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
+                <a class="arrow uk-position-center-right-out uk-position-small uk-visible@xl" href="#"
+                    data-uk-slidenav-next data-uk-slideshow-item="next"></a>
                 <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            </div>
+        </div>
+    </div> -->
+    <div class="uk-section testimonial uk-padding">
+        <div class="uk-container  uk-container-xlarge">
+            <h2 id="opinie-klientow" class="uk-heading-small underscore-left"><span
+                    class="biouron-last-color">Opinie</span> klientów
+            </h2>
+            <div>
+                <div class="uk-grid-match" data-uk-grid>
+                    <div class="uk-width-1-3@m">
+                        <div class="uk-card uk-card-body uk-text-center ">
+                            <img data-src="./images/maria.jpg" alt="kobieta w srednim wieku" width="328" height="328"
+                                data-uk-img>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-card uk-card-body">
+                            <p class="uk-text-small">
+                                <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                        class="uk-margin-small-right">
+                                    To
+                                    ogromna ulga
+                                    i dziękuję po dzień
+                                    dzisiejszy siostrze, że
+                                    poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.</h3>
+                                Mam na imię Maria. Od ok. 6 lat borykałam się z problemem
+                                nietrzymania
+                                moczu. Zaczęło się od pracy, podczas wysiłku czułam nagłe parcie na
+                                pęcherz i samoistne popuszczanie bez szans na dobiegnięcie do toalety.
+                                Później było już tylko gorzej, kiedy nie przesypiałam całej nocy, a
+                                parcie na pęcherz budziło mnie 3-4 razy w nocy do toalety. Chodziłam
+                                zmęczona i zmartwiona a znajomi i rodzina nie wiedzieli co się dzieje,
+                                ponieważ nie chciałam mówić im o tym problemie. Chodziłam do różnych
+                                specjalistów, począwszy od lekarzy pierwszego kontaktu, skończywszy na
+                                urologach, wydałam majątek na leki które nie pomagały. Kiedy
+                                powiedziałam siostrze o co chodzi, ona od razu wyjęła z torebki kapsułki
+                                i kazała natychmiast zacząć stosować.
+                                <span class="uk-text-bold">
+                                    Po miesiącu od tamtego momentu
+                                    mogłam już przesypiać całą noc bez budzenia się z mokrą pościelą, a w
+                                    tym momencie nawet przy mocnym wysiłku nie czuję konieczności biegania
+                                    do toalety.</span> To ogromna ulga i dziękuję po dzień dzisiejszy siostrze,
+                                że
+                                poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.
+                            </p>
+                            <p style="color:#72A1AF; font-style: italic;">Pani Maria - Gdańsk</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="uk-grid-match" data-uk-grid>
+                    <div class="uk-width-1-3@m uk-flex-last@m">
+                        <div class="uk-card uk-card-body uk-text-center ">
+                            <img data-src="./images/marek.jpg" alt="męższczyzna w srednim wieku" width="300"
+                                height="300" data-uk-img>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-card uk-card-body">
+                            <p class="uk-text-small">
+                                <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                        class="uk-margin-small-right">
+                                    W końcu trafiłem na
+                                    świetnego specjalistę, który od razu zalecił mi stosowanie Biouronu, i
+                                    uwierzcie
+                                    już po 2 tygodniach zauważyłem ogromną poprawę!</h3>
+                                Nazywam się Marek, mój wstydliwy problem zaczął się ok. 2
+                                lat temu, kiedy pewnego dnia poszedłem na spotkanie z kolegami i przy nagłej
+                                zmianie temperatury poczułem ciepło w spodniach, poszedłem do łazienki i
+                                zauważyłem plamę na bieliźnie. W tamtym momencie nie wiedziałem o co chodzi, ale
+                                niestety to był dopiero początek, później było coraz gorzej. Kiedy to przy
+                                wstawaniu po dłuższym odpoczynku na kanapie, nie mogłem dobiec do toalety,
+                                popuszczając, bądź też kiedy budziłem się rano i widziałem przemoczoną pościel -
+                                byłem załamany. Od razu po wykryciu problemu poszedłem do swojego urologa, który
+                                przez rok zmieniał mi leki i NIC nie pomagało, problem się bardziej pogłębiał a
+                                ja byłem w coraz gorszym stanie psychicznym, ponieważ wyjście z kolegami i
+                                przesiedzenia 2h bez biegania do toalety było niemożliwe. W końcu trafiłem na
+                                świetnego specjalistę, który od razu zalecił mi stosowanie Biouronu, i uwierzcie
+                                już po 2 tygodniach zauważyłem ogromną poprawę! Mogłem siedzieć 3 godziny bez
+                                konieczności myślenia o toalecie, a na ten moment nie ma nawet mowy o
+                                przemoczonej bieliźnie czy pościeli. <span class="uk-text-bold">Odzyskałem swoje
+                                    dawne życie.</span>
+                            </p>
+                            <p style="color:#72A1AF; font-style: italic;">Pan Marek - Sosnowiec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-grid-match" data-uk-grid>
+                    <div class="uk-width-1-3@m">
+                        <div class="uk-card uk-card-body uk-text-center ">
+                            <img data-src="./images/krystyna.jpg" alt="kobieta w srednim wieku" width="300" height="300"
+                                data-uk-img>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-card uk-card-body">
+                            <p class="uk-text-small">
+                                <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                        class="uk-margin-small-right">
+                                    Stosowałam
+                                    mnóstwo leków i zabiegów które nie przynosiły efektów, do momentu kiedy nie
+                                    trafiłam na Biouron.</h3>
+                                Po 25 latach mojej kariery w szkole, kiedy to przeszłam na
+                                emeryturę z zamiarem odpoczynku, nie wiedziałam że wtedy zacznie się mój
+                                koszmar. Po operacji ginekologicznej mój pęcherz przestał pracować jak
+                                dotychczas i zdiagnozowano u mnie napięciowe nietrzymanie moczu. Stosowałam
+                                mnóstwo leków i zabiegów które nie przynosiły efektów, do momentu kiedy nie
+                                trafiłam na Biouron. To znajoma urolożka, kiedy dowiedziała się o moim problemie
+                                od razu zaleciła mi stosowanie tego preparatu, a ja nie mogłam uwierzyć jak już
+                                po 2 tygodniach przestałam popuszczać, <span class="uk-text-bold">
+                                    nie musiałam
+                                    już nosić wkładek i przede
+                                    wszystkim mogłam cieszyć się z zabawy z wnukami bez przykrych zapachów i
+                                    biegania do toalety!</span>
+                            </p>
+                            <p style="color:#72A1AF; font-style: italic;">Pani Krystyna - Wadowice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-grid-match" data-uk-grid>
+                    <div class="uk-width-1-3@m uk-flex-last@m">
+                        <div class="uk-card uk-card-body uk-text-center ">
+                            <img data-src="./images/kasia.jpg" alt="kobieta w srednim wieku" width="300" height="300"
+                                data-uk-img>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-card uk-card-body">
+                            <p class="uk-text-small">
+                                <h3 style="color:#72A1AF; margin-top: 0;"><img src="./images/cytat.svg" alt=""
+                                        class="uk-margin-small-right">
+                                    Na moje szczęście problem nie trwał
+                                    długo, ponieważ z polecenia znajomej trafiłam do najlepszego specjalisty a
+                                    on od
+                                    razu zalecił mi 2 miesiące stosowania BioUronu.</h3>
+                                Miałam 42 lata, kiedy urodziłam ostatniego syna i właśnie
+                                wtedy zaczęły się moje niechciane problemy z układem moczowym. Kiedy mój lekarz
+                                powiedział mi, że to normalne że po trójce dzieci nie będę utrzymywała moczu i
+                                do końca życia będę musiała nosić podpaski, byłam totalnie załamana a moje życie
+                                straciło sens, przecież byłam jeszcze młoda! Na moje szczęście problem nie trwał
+                                długo, ponieważ z polecenia znajomej trafiłam do najlepszego specjalisty a on od
+                                razu zalecił mi 2 miesiące stosowania BioUronu. <span class="uk-text-bold">Po
+                                    dzień dzisiejszy dziękuję
+                                    znajomej ponieważ to uratowało moje życie przed ciągłym bieganiem do
+                                    toalety, a
+                                    mąż jest szczęśliwy ponieważ znowu mamy udane życie seksualne! Będę polecała
+                                    każdemu z podobnym problemem.</span>
+                            </p>
+                            <p style="color:#72A1AF; font-style: italic;">Pani Kasia - Siemiatycze</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -329,23 +552,43 @@
             <div class="uk-grid-match uk-child-width-expand@m uk-text-left" data-uk-grid>
                 <div>
                     <div class="uk-card uk-card-body">
-                        <img src="./images/doctor.jpg" alt="lekarz w kitlu ze stetoskopem na szyi" width="680"
-                            height="465">
+                        <picture>
+                            <!-- webp -->
+                            <source class="img-responsive" srcset="./images/doc-sm.webp" media="(max-width: 640px)"
+                                type="doctor" />
+                            <source class=" img-responsive" srcset="./images/doc-md.webp" media="(max-width: 768px)"
+                                type="image/webp" />
+                            <source class="img-responsive" srcset="./images/doc-lg.webp" media="(max-width: 1024px)"
+                                type="image/webp" />
+                            <!-- jpg -->
+                            <source class="img-responsive" srcset="./images/doc-sm.jpg" media="(max-width: 640px)"
+                                type="image/jpg" />
+                            <source class="img-responsive" srcset="./images/doc-md.jpg" media="(max-width: 768px)"
+                                type="image/jpg" />
+                            <source class="img-responsive" srcset="./images/doc-lg.jpg" media="(max-width: 1024px)"
+                                type="image/jpg" />
+                            <!-- original -->
+                            <img data-src="./images/doc.jpg" alt="lekarz w kitlu ze stetoskopem na szyi" width="680"
+                                height="465" data-uk-img>
+                        </picture>
                     </div>
                 </div>
                 <div>
                     <div class="uk-card uk-card-body">
-                        <h2 class="uk-heading-small biouron-last-color">Witam,</h2>
-                        <p>
-                            Nazywam się Piotr Jakubowski. Jestem naukowcem, specjalistą w dziedzinie urologii i
-                            andrologii. Przez lata prowadziłem badania dotyczące regeneracji układu moczowego i pęcherza
+                        <h2 class="uk-heading-small biouron-last-color underscore-left">Witam,</h2>
+                        <p class="uk-margin-medium-top">
+                            Nazywam się Piotr Jakubowski. <span class="uk-text-bold">Jestem naukowcem, specjalistą w
+                                dziedzinie urologii i
+                                andrologii.</span> Przez lata prowadziłem badania dotyczące regeneracji układu moczowego
+                            i pęcherza
                             po urazach i uszkodzeniach spowodowanych wiekiem. Z wielkim entuzjazmem u większości moich
                             pacjentów zalecam innowacyjną metodę skierowaną na wzmocnienie w naturalny sposób całego
-                            układu moczowego za pomocą tego preparatu. Jej skuteczność została dowiedziona przez
-                            szwajcarskich naukowców. Cieszę się, że dziś jest na tyle rozwinięty Internet, że może
-                            dowiedzieć się o tym produkcie większa rzesza osób.
+                            układu moczowego za pomocą tego preparatu.<span class="uk-text-bold">Jej skuteczność została
+                                dowiedziona przez
+                                szwajcarskich naukowców. Cieszę się, że dziś jest na tyle rozwinięty Internet, że może
+                                dowiedzieć się o tym produkcie większa rzesza osób.</span>
                         </p>
-                        <img src="./images/signature.svg" alt="podpis lekarza" width="150" height="50">
+                        <img data-src="./images/signature.svg" alt="podpis lekarza" width="150" height="50" data-uk-img>
                     </div>
                 </div>
             </div>
@@ -353,13 +596,14 @@
     </div>
     <!-- Article -->
     <div class="uk-section uk-padding-small">
-        <div class="uk-container  uk-container-xlarge">
+        <div class="uk-container  uk-container-large">
             <article class="uk-article">
-                <h2 id="jak-dziala" class="uk-heading-small biouron-second-color uk-text-center"><span
+                <h2 id="jak-dziala" class="uk-heading-small biouron-second-color uk-text-center underscore"><span
                         class="biouron-last-color">Rozmowa</span> ze
                     specjalistą</h2>
 
-                <p class="uk-text-lead">Przeprowadziliśmy wywiad z jednym z najlepszych specjalistów w dziedzinie
+                <p class="uk-text-lead uk-margin-medium-top">Przeprowadziliśmy wywiad z jednym z najlepszych
+                    specjalistów w dziedzinie
                     urologii w Polsce, oto co mówi na temat nietrzymania moczu:
                 </p>
                 <p class="biouron-second-color">
@@ -367,9 +611,12 @@
                     częstym problemem wśród Polaków?
                 </p>
 
-                <p>ak pokazują badania problem z układem moczowym dotyka co ósmą osobę w Polsce, już po 40 roku życia,
-                    co daje nam ponad 20% całkowitej populacji, jest to ogromny problem zarówno występujący u kobiet jak
-                    i u mężczyzn. Jest to bardzo wstydliwa dolegliwość, dlatego też nie każdy zgłasza się do specjalisty
+                <p><span class="uk-text-bold">jak pokazują badania problem z układem moczowym dotyka co ósmą osobę w
+                        Polsce, już po 40 roku życia,
+                        co daje nam ponad 20% całkowitej populacji, jest to ogromny problem zarówno występujący u kobiet
+                        jak
+                        i u mężczyzn.</span> Jest to bardzo wstydliwa dolegliwość, dlatego też nie każdy zgłasza się do
+                    specjalisty
                     na początku wykrytego schorzenia, co jest ogromnym błędem, gdyż wcześnie rozpoczęte leczenie
                     pozwoliłoby zlikwidować problem od ręki.
                 </p>
@@ -384,8 +631,10 @@
                     nie dzieje. Jeżeli już pojawiło się kropelkowanie, bądź też wycieki podczas wykonywania pewnych
                     gwałtownych czynności, kichania, podnoszenia itp. możemy mieć pewność że to początek nietrzymania
                     moczu, który sam nie zniknie, tylko będzie się pogłębiał, dlatego zawsze zalecam swoim pacjentom,
-                    żeby działać od razu, tak żeby problem wyeliminować i cieszyć się zdrowiem. Zapalenie pęcherza jest
-                    niezwykle poważną chorobą zakaźną, która prowadzi do ciężkich uszkodzeń całego pęcherza moczowego.
+                    żeby działać od razu, tak żeby problem wyeliminować i cieszyć się zdrowiem. <span
+                        class="uk-text-bold">Zapalenie pęcherza jest
+                        niezwykle poważną chorobą zakaźną, która prowadzi do ciężkich uszkodzeń całego pęcherza
+                        moczowego.</span>
                     Następnie infekcja przez pęcherz przenika do nerek, a następnie cały organizm ulega zakażeniu. Jak
                     pokazują fakty, nieleczone nietrzymanie moczu zawsze kończy się tak, że pęcherz moczowy przestaje
                     całkowicie trzymać mocz i pacjenci muszą korzystać z cewnikowania. Ta procedura obejmuje
@@ -417,9 +666,12 @@
                     szybciej i z większym efektem będziemy mogli wdrożyć leczenie. Ponadto osobom u których problem
                     występuje już od dłuższego czasu i był bagatelizowany, bądź też dotychczasowe próby leczenia nie
                     przynosiły efektów zalecam skorzystanie z programu “Zdrowy pęcherz”, który pomaga osobom również w
-                    ciężkich przypadkach zniwelować problem nawet o 100%. Program “Zdrowy pęcherz” ma za zadanie pomóc
-                    osobom w ciężkich przypadkach wysiłkowego bądź też naglącego nietrzymania moczu zregenerować cały
-                    układ moczowy już w 4 tygodnie. Przystąpienie do programu “zdrowy pęcherz” obejmuje szereg działań
+                    ciężkich przypadkach zniwelować problem nawet o 100%. <span class="uk-text-bold">Program “Zdrowy
+                        pęcherz” ma za zadanie pomóc
+                        osobom w ciężkich przypadkach wysiłkowego bądź też naglącego nietrzymania moczu zregenerować
+                        cały
+                        układ moczowy już w 4 tygodnie.</span> Przystąpienie do programu “zdrowy pęcherz” obejmuje
+                    szereg działań
                     zapobiegających dalszemu rozwojowi dolegliwości oraz wzmocnić od wewnątrz cały organizm. Przede
                     wszystkim najbardziej cenionym wśród środowiska specjalistów produktem na nietrzymanie moczu jest
                     “Biouron”. Przede wszystkim jest to środek który wzmacnia od wewnątrz mięśnie dna miednicy, które są
@@ -439,19 +691,25 @@
                     Równocześnie przeciwdziała zatrzymywaniu płynów w organizmie. Składniki Biouronu podnoszą odporność
                     organizmu pobudzając wytwarzanie endogennych interferonów, dzięki czemu zwiększają odporność
                     zwłaszcza wobec wirusów chorobotwórczych. Hamują namnażanie się bakterii, ale także utrudniają im
-                    przyleganie do nabłonka dróg moczowych. Biouron także wzmacnia od wewnątrz mięśnie dna miednicy,
-                    przy jednoczesnym rozluźnieniu mięśni pęcherza co oznacza, że mocz jest w konsekwencji prawidłowo
-                    utrzymywany, nie występuje wysiłkowe czy też samoistne kropelkowanie, popuszczanie i co jest bardzo
-                    ważne moi pacjenci którzy już stosowali preparat, mówią że są w stanie przesypiać całą noc bez
-                    konieczności budzenia się z naglącą potrzebą oddania moczu
+                    przyleganie do nabłonka dróg moczowych. <span class="uk-text-bold">Biouron także wzmacnia od
+                        wewnątrz mięśnie dna miednicy,
+                        przy jednoczesnym rozluźnieniu mięśni pęcherza co oznacza, że mocz jest w konsekwencji
+                        prawidłowo
+                        utrzymywany, nie występuje wysiłkowe czy też samoistne kropelkowanie, popuszczanie i co jest
+                        bardzo
+                        ważne moi pacjenci którzy już stosowali preparat, mówią że są w stanie przesypiać całą noc bez
+                        konieczności budzenia się z naglącą potrzebą oddania moczu</span>
                 </p>
                 <p class="biouron-second-color">
                     Jakie są wyniki po zastosowaniu tego preparatu?
                 </p>
                 <p>
-                    Badania jasno pokazują, że na ten moment jest to najlepszy preparat, który przede wszystkim hamuje
-                    rozwój nietrzymania moczu ale także poprawia stan układu moczowego, nawet w najgorszych przypadkach.
-                    98% pacjentów którzy stosowali preparat ponad 4 tyg. zauważyły znaczną poprawę, zahamowanie
+                    <span class="uk-text-bold">Badania jasno pokazują, że na ten moment jest to najlepszy preparat,
+                        który przede wszystkim hamuje
+                        rozwój nietrzymania moczu ale także poprawia stan układu moczowego, nawet w najgorszych
+                        przypadkach.
+                        98% pacjentów którzy stosowali preparat ponad 4 tyg. zauważyły znaczną poprawę</span>,
+                    zahamowanie
                     niechcianego popuszczania, dużo rzadsze korzystanie z toalety, a przede wszystkim możliwość
                     utrzymywania moczu bez konieczności ciągłego biegania do toalety bądź też zmieniania wkładów
                     higienicznych
@@ -469,12 +727,12 @@
     </div>
     <!-- CZY WIESZ, ŻE WCALE NIE MUSISZ CIERPIEĆ -->
     <div class="uk-section uk-background-cover uk-height-medium uk-position-relative"
-        style="background-image: url(./images/background.jpg);">
-        <div class="uk-container  uk-container-xlarge uk-container  uk-container-xlarge-xsmall uk-flex uk-flex-center">
-            <p class="uk-width-xlarge uk-margin uk-background-primary"
-                style="position: absolute; bottom: -30px; color: #fff; padding: 10px; background-color: #72A1AF;">
-                <span
-                    style="display: block; margin: 15px auto; width: 80px; height: 2px;background-color: #B7CFD6"></span>
+        style="background-image: url(./images/purple.jpg);">
+        <div class="uk-container uk-flex uk-flex-center">
+            <p class="uk-width-xlarge uk-margin uk-background-primary uk-padding uk-position-absolute"
+                style="bottom: -30px; color: #fff; background-color: #72A1AF;">
+                <span class="uk-display-block"
+                    style="margin: 25px auto; width: 80px; height: 3px;background-color: #B7CFD6"></span>
                 CZY WIESZ, ŻE WCALE NIE MUSISZ CIERPIEĆ, CHODZĄC NON STOP DO TOALETY I MYŚLĄC O ZMIANIE PRZEMOCZONEJ
                 BIELIZNY?
                 WZMOCNIJ SWÓJ PĘCHERZ RAZ NA ZAWSZE W NATURALNY SPOSÓB!
@@ -484,17 +742,34 @@
     <!-- Preparat Biouron -->
     <div class="uk-section">
         <div class="uk-container  uk-container-xlarge">
-            <h2 id="oferta" class="uk-heading-small biouron-second-color uk-padding uk-padding-remove-bottom"><span
+            <h2 id="oferta" class="uk-heading-small biouron-second-color underscore-left"><span
                     class="biouron-last-color">Preparat</span> Biouron
             </h2>
             <div class="uk-grid-match uk-child-width-expand@m uk-text-left" data-uk-grid>
                 <div>
-                    <div class="uk-card uk-card-body">
-                        <h3 class="uk-text-large">ZGŁOŚ SIĘ PO NAJLEPSZY PREPARAT NA RYNKU NA
-                            NIETRZYMANIE MOCZU I<br> <span class="biouron-last-color">ODBIERZ 1 OPAKOWANIE W
+                    <div class="uk-card uk-margin-medium-top">
+                        <h3 class="uk-text-large">ZGŁOŚ SIĘ PO NAJLEPSZY PREPARAT NA RYNKU NA<br>
+                            NIETRZYMANIE MOCZU I <span class="biouron-last-color">ODBIERZ 1 OPAKOWANIE W
                                 CENIE PROMOCYJNEJ 117 zł! </span></h3>
-                        <img src="./images/product.jpg" alt="lekarz w kitlu ze stetoskopem na szyi" width="680"
-                            height="465">
+                        <picture>
+                            <!-- webp -->
+                            <source class="img-responsive" srcset="./images/cena-sm.webp" media="(max-width: 640px)"
+                                type="image/webp" />
+                            <source class=" img-responsive" srcset="./images/cena-md.webp" media="(max-width: 768px)"
+                                type="image/webp" />
+                            <source class="img-responsive" srcset="./images/cena-lg.webp" media="(max-width: 1024px)"
+                                type="image/webp" />
+                            <!-- jpg -->
+                            <source class="img-responsive" srcset="./images/cena-sm.jpg" media="(max-width: 640px)"
+                                type="image/jpg" />
+                            <source class="img-responsive" srcset="./images/cena-md.jpg" media="(max-width: 768px)"
+                                type="image/jpg" />
+                            <source class="img-responsive" srcset="./images/cena-lg.jpg" media="(max-width: 1024px)"
+                                type="image/jpg" />
+                            <!-- original -->
+                            <img data-src="./images/cena.jpg" alt="buteleczka z produktem biouron" width="680"
+                                height="465" data-uk-img>
+                        </picture>
                     </div>
                 </div>
                 <div>
@@ -504,12 +779,17 @@
                             najwyższym światowym poziomie:
                         </p>
                         <p class="uk-text-large biouron-second-color">
-                            Aktualnie w związku z programem “Zdrowy pęcherz” dostępny jest jednorazowy rabat - cena
-                            początkowa wynosiła 357 złotych, teraz tylko 117 zł!
+                            Aktualnie w związku z programem <span class="uk-text-bold">"Zdrowy pęcherz"</span> dostępny
+                            jest jednorazowy rabat - cena
+                            początkowa wynosiła 357 złotych, <span class="uk-text-bold">teraz tylko 117 zł!</span>
                         </p>
                         <p>
-                            Aby zamówić produkt postępuj według poniższych wskazówek:
-                            Wypełnij formularz zamówienia u dołu ekranu.
+                            <span class="uk-text-bold">Aby zamówić produkt postępuj według poniższych
+                                wskazówek:</span><br>
+                            Wypełnij <a href="#kontakt" data-uk-scroll
+                                style="color:#A15E8A; font-weight: bold; text-decoration: underline;">FORMULARZ</a>
+                            zamówienia u
+                            dołu ekranu.<br>
                             Czas realizacji zamówienia to około 2-3 dni. Potem wszystko zależy od Ciebie!
                         </p>
                         <p class="biouron-second-color">
@@ -523,7 +803,8 @@
                             aktywności.
                         </p>
                         <p>
-                            Osoby, które przychodzą do mnie po ratunek, mają już serdecznie dosyć...
+                            <span class="uk-text-bold">Osoby, które przychodzą do mnie po ratunek, mają już serdecznie
+                                dosyć...</span>
                         </p>
                         <ul class="uk-list">
                             <li><span class="uk-margin-small-right" data-uk-icon="check"></span>sięgania po szkodliwe
@@ -538,54 +819,54 @@
                     </div>
                 </div>
             </div>
+            <hr>
         </div>
     </div>
     <!-- NATURALNE SKŁADNIKI BIOURONU SPRAWIĄ ŻE SZYBKO ODZYSKASZ DAWNE ŻYCIE -->
-    <div class="uk-section uk-padding-small">
+    <div class="uk-section">
         <div class="uk-container  uk-container-xlarge">
             <div class="uk-child-width-expand@m" data-uk-grid>
                 <div class="uk-grid-item-match">
-                    <h2 id="o-biouronie" class="uk-text-large biouron-second-color">NATURALNE SKŁADNIKI BIOURONU SPRAWIĄ
-                        ŻE SZYBKO
-                        ODZYSKASZ DAWNE ŻYCIE I
-                        PEWNOŚĆ SIEBIE, CO DAJE
-                        STOSOWANIE PREPARATU.
+                    <h2 class="uk-text-large biouron-second-color">NATURALNE SKŁADNIKI <span
+                            class="uk-text-bold">BIOURONU</span> SPRAWIĄ
+                        ŻE SZYBKO<br><span class="uk-text-bold">ODZYSKASZ DAWNE ŻYCIE I PEWNOŚĆ SIEBIE</span>, CO
+                        DAJE<br> STOSOWANIE PREPARATU.
                     </h2>
                 </div>
                 <div></div>
             </div>
             <div class="uk-grid-match uk-child-width-expand@m" data-uk-grid>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                    <div class="uk-card uk-card-body uk-padding-small">
                         <div class="uk-flex uk-flex-top">
-                            <img src="./images/urinary-tract.svg" alt="układ moczowy" width="48" height="48"
-                                class="uk-margin-right">
+                            <img data-src="./images/nerki.svg" alt="układ moczowy" width="48" height="48"
+                                class="uk-margin-right" data-uk-img>
                             <div>WZMOCNIENIE CAŁEGO UKŁADU MOCZOWEGO</div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                    <div class="uk-card uk-card-body uk-padding-small">
                         <div class="uk-flex uk-flex-top">
-                            <img src="./images/hips.svg" alt="układ moczowy" width="48" height="48"
+                            <img src="./images/brzuch.svg" alt="układ moczowy" width="48" height="48"
                                 class="uk-margin-right">
                             <div>WZMOCNIENIE MIĘŚNI DNA MIEDNICY</div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                    <div class="uk-card uk-card-body uk-padding-small">
                         <div class="uk-flex uk-flex-top">
-                            <img src="./images/flow.svg" alt="układ moczowy" width="48" height="48"
+                            <img src="./images/kropelki.svg" alt="układ moczowy" width="48" height="48"
                                 class="uk-margin-right">
                             <div>ZNACZNE ZMNIEJSZENIE A NAWET CAŁKOWITE ZLIKWIDOWANIE POPUSZCZANIA I CZĘSTOMOCZU</div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small">
+                    <div class="uk-card uk-card-body uk-padding-small">
                         <div class="uk-flex uk-flex-top">
-                            <img src="./images/dream.svg" alt="układ moczowy" width="48" height="48"
+                            <img src="./images/sen.svg" alt="układ moczowy" width="48" height="48"
                                 class="uk-margin-right">
                             <div>PRZESYPIANIE NOCY BEZ BUDZENIA SIĘ DO TOALETY</div>
                         </div>
@@ -595,32 +876,55 @@
         </div>
     </div>
     <!-- Informacje na temat naszego produktu Biouron -->
-    <div class="uk-section uk-background-cover" style="background-image: url(./images/background.jpg);">
+    <div class="uk-section uk-background-cover" style="background-image: url(./images/blue.jpg);">
         <div class="uk-container  uk-container-xlarge">
-            <h2>
-                Informacje na temat naszego produktu Biouron
+            <h2 id="o-biouronie" class="uk-heading-small underscore-left">
+                <span style="color:rgba(255, 255, 255, 0.6)">Informacje na temat
+                    naszego
+                </span>
+                <div style="color: white">produktu Biouron</div>
             </h2>
-            <p>
+            <p class="uk-margin-medium-top" style="color: white">
                 Specjalnie dla Ciebie wytwarzamy je na bazie naturalnych składników (wyselekcjonowanych,
                 zoptymalizowanych i dobieranych z największą starannością).
             </p>
-            <div class="uk-grid-match uk-child-width-expand@m uk-text-center" data-uk-grid>
+            <div class="uk-grid-match uk-child-width-expand@m uk-text-center" style="color: white" data-uk-grid>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">Item</div>
+                    <div class="uk-card uk-card-body">
+                        <img data-src="./images/fiolka.svg" alt="menzurka szklana ikonka" data-uk-img>
+                        <h3 style="color: white">INNOWACYJNA TECHNOLOGIA PRODUKCJI</h3>
+                        <p>Umożliwia optymalne zachowanie proporcji i synergiczne działanie (wzajemne wzmocnienie)
+                            wszystkich składników aktywnych dzięki czemu szybciej zaobserwujesz pierwsze efekty.
+                        </p>
+                    </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">Item<br>...</div>
+                    <div class="uk-card uk-card-body">
+                        <img data-src="./images/tabletki.svg" alt="kapsułki lekarstwo ikonka" data-uk-img>
+                        <h3 style="color: white">WYSOKA WCHŁANIALNOŚĆ</h3>
+                        <p>Dzięki wysokiej, aż 50% standaryzacji, suplement diety wykazuje wysoką biodostępność, a tym
+                            samym polepsza przyswajalność składników. Tylko wysoka biodostępność pozwala na skutecznie
+                            działanie i efekt prozdrowotny.
+                        </p>
+                    </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">Item<br>...<br>...</div>
+                    <div class="uk-card uk-card-body">
+                        <img data-src="./images/zegar.svg" alt="ikonka zegar" data-uk-img>
+                        <h3 style="color: white">DŁUGOTRWAŁE DZIAŁANIE</h3>
+                        <p>Spolaryzowana budowa cząsteczki pozwala na stopniowe uwalnianie składników aktywnych, co
+                            zapewnia ich działanie przez długi czas.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Nietrzymanie moczu / częstomocz  -->
     <div class="uk-section">
-        <div class="uk-container  uk-container-xlarge">
-            <h2>Nietrzymanie moczu / częstomocz </h2>
+        <div class="uk-container  uk-container-xlarge pollakiuria">
+            <h2 class="uk-heading-small biouron-second-color"><span class="biouron-last-color">Nietrzymanie moczu
+                    /</span> częstomocz</h2>
             <p>
                 Nietrzymanie moczu to dolegliwość wstydliwa i niezwykle uciążliwa. Problem z trzymaniem moczu znacznie
                 utrudnia bowiem codzienne funkcjonowanie. Panika na myśl o kichnięciu? Niechęć do podnoszenia czegoś
@@ -629,13 +933,17 @@
             </p>
             <div class="uk-grid-match uk-child-width-expand@m uk-text-center" data-uk-grid>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <img src="./images/nettle.jpg" alt="liście pokrzywy" width="360" height="280">
-                        <h2>Ekstrakt z pokrzywy</h2>
-                        <p>
-                            ma działanie antybakteryjne, dzięki czemu powstający mocz przepłukuje nasz układ moczowy i
-                            pozbywa się zalegających w nim szkodliwych substancji np. złogów kwasu moczowego, chlorków,
-                            mocznika. Liść pokrzywy jest stosowany u osób z zaburzeniem oddawania moczu, w stanach
+                    <div class="uk-card">
+                        <img data-src="./images/pokrzywa.jpg" alt="liście pokrzywy" width="360" height="280"
+                            data-uk-img>
+                        <h3 class="">Ekstrakt z pokrzywy</h3>
+                        <p class="uk-padding-small uk-padding-remove-top uk-text-left">
+                            <span class="uk-text-bold">działanie antybakteryjne, dzięki czemu powstający mocz
+                                przepłukuje nasz układ moczowy i
+                                pozbywa się zalegających w nim szkodliwych substancji np. złogów kwasu moczowego,
+                                chlorków,
+                                mocznika.</span> Liść pokrzywy jest stosowany u osób z zaburzeniem oddawania moczu, w
+                            stanach
                             zapalnych dróg moczowych czy przy kamicy nerkowej. Równocześnie przeciwdziała zatrzymywaniu
                             płynów w organizmie. Ekstrakt z pokrzywy podnosi odporność organizmu pobudzając wytwarzanie
                             endogennych interferonów, dzięki czemu zwiększają odporność zwłaszcza wobec wirusów
@@ -644,118 +952,212 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <img src="./images/artichoke.jpg" alt="karczoch" width="360" height="280">
-                        <h2>Ekstrakt z karczocha</h2>
-                        <p>
-                            najważniejszymi substancjami leczniczymi występującymi w karczochu jest potas, wapń, fosfor
-                            i magnez, dodatkowo zawiera witaminę C i E, które wykazuje dużą skuteczność w leczeniu oraz
-                            zapobieganiu infekcjom dróg moczowych. Dodatkowo obniża pH moczu i przyspiesza wydalaniem
+                    <div class="uk-card">
+                        <img data-src="./images/karczoch.jpg" alt="karczoch" width="360" height="280" data-uk-img>
+                        <h3>Ekstrakt z karczocha</h3>
+                        <p class="uk-padding-small uk-padding-remove-top uk-text-left">
+                            <span class="uk-text-bold">najważniejszymi substancjami leczniczymi występującymi w
+                                karczochu jest potas, wapń, fosfor
+                                i magnez, dodatkowo zawiera witaminę C i E, które wykazuje dużą skuteczność w leczeniu
+                                oraz
+                                zapobieganiu infekcjom dróg moczowych.</span> Dodatkowo obniża pH moczu i przyspiesza
+                            wydalaniem
                             drobnoustrojów z dróg moczowych. Ponadto zakwasza mocz, a kwaśne środowisko nie sprzyja
                             namnażaniu bakterii.
                         </p>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <img src="./images/hawthorn.jpg" alt="owoce żórawiny" width="360" height="280">
-                        <h2>Ekstrakt z owoców głogu</h2>
-                        <p>
+                    <div class="uk-card">
+                        <img data-src="./images/glog.jpg" alt="owoce głogu" width="360" height="280" data-uk-img>
+                        <h3>Ekstrakt z owoców głogu</h3>
+                        <p class="uk-padding-small uk-padding-remove-top uk-text-left">
                             znajdują się tam m.in. aminy, fitosterole, fenolokwasy, garbniki, witaminy B i C, pektyny i
                             sole mineralne, a także bogactwo flawonoidów, które wykazują pozytywne działanie na jelita
                             (działają rozkurczowo na ich mięśnie gładkie), naczynia krwionośne, drogi moczowe i macicę.
                             Działa łagodząco na bolesne oddawanie moczu, a także w stanach zapalnych i zakażeniach dróg
                             moczowych bakteriami odpornymi na antybiotyki, w niektórych schorzeniach nerek, kamicy
                             nerkowej i pęcherzowej. Kwas L-askorbinowy skutecznie przeciwdziała starzeniu się skóry,
-                            jest silnym przeciwutleniaczem. Wspiera prawidłowe funkcjonowanie mięśni oraz stymulująco na
-                            syntezę kolagenu i kwasu hialuronowego (jednego z białek strukturalnych mięśni) a tym samym
-                            zapewnia prawidłowe trzymanie moczu.
+                            jest silnym przeciwutleniaczem.<span class="uk-text-bold">Wspiera prawidłowe funkcjonowanie
+                                mięśni oraz stymulująco na
+                                syntezę kolagenu i kwasu hialuronowego (jednego z białek strukturalnych mięśni) a tym
+                                samym
+                                zapewnia prawidłowe trzymanie moczu.</span>
                         </p>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <img src="./images/cranberries.jpg" alt="liście pokrzywy" width="360" height="280">
-                        <h2>ŻURAWINA</h2>
-                        <p>zawiera flawonoidy. Są to związki wykazujące działanie przeciwzapalne i przeciwalergiczne.
+                    <div class="uk-card">
+                        <img data-src="./images/zurawina.jpg" alt="owoce żurawiny" width="360" height="280" data-uk-img>
+                        <h3>ŻURAWINA</h3>
+                        <p class="uk-padding-small uk-padding-remove-top uk-text-left">zawiera flawonoidy. Są to związki
+                            wykazujące
+                            działanie przeciwzapalne i przeciwalergiczne.
                             Hamują namnażanie się bakterii, ale także utrudniają im przyleganie do nabłonka dróg
                             moczowych. Poza tym obniżają pH moczu, co czyni środowisko mniej przyjaznym dla rozwoju
-                            bakterii chorobotwórczych. Żurawina jest także bombą witaminy C, która wzmacnia odporność
-                            Naszego organizmu. </p>
+                            bakterii chorobotwórczych. <span class="uk-text-bold">Żurawina jest także bombą witaminy C,
+                                która wzmacnia odporność
+                                Naszego organizmu.</span></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="uk-section uk-background-cover uk-height-medium"
-        style="background-image: url(./images/background-2.jpg);">
-        <div class="uk-container  uk-container-xlarge uk-container  uk-container-xlarge-xsmall uk-flex uk-flex-center">
-            <p class="uk-width-large uk-margin">
-                Prawidłowe dobranie przez Naszego Specjalistę indywidualnej kuracji oraz regularne stosowanie
-                prawdopodobnie przyczyni się pozytywnego wpływu na funkcjonowanie organizmu nawet po zakończonej
-                kuracji.
-            </p>
+    <!-- Prawidłowe dobranie przez Naszego Specjalistę indywidualnej kuracji -->
+    <div class="uk-section uk-height-medium uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top"
+        style="background-image: url('./images/purple.jpg');">
+        <div
+            class="uk-container  uk-container-xlarge-xsmall uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+            <h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;"> <span class="uk-display-block"
+                    style="margin: 15px auto; width: 80px; height: 2px;background-color: #B7CFD6"></span></h1>
+            <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">Prawidłowe dobranie przez Naszego
+                Specjalistę indywidualnej kuracji oraz regularne stosowanie<br>
+                prawdopodobnie przyczyni się pozytywnego wpływu na funkcjonowanie organizmu nawet po zakończonej<br>
+                kuracji.</p>
         </div>
     </div>
     <!-- formularz kontaktowy -->
     <div class="uk-section uk-padding-small">
-        <div class="uk-container  uk-container-xlarge">
+        <div class="uk-container">
             <div class="uk-grid-match uk-child-width-expand@m uk-text-left" data-uk-grid>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <h2 id="kontakt">Formularz
-                            kontaktowy
-                        </h2>
-                        <p>
+                    <div class="uk-card uk-card-body">
+                        <h2 id="kontakt" class="uk-heading-small biouron-second-color underscore-left">
+                            <span class="biouron-last-color">Formularz</span> kontaktowy</h2>
+                        <p class="uk-margin-medium-top">
                             Aby skorzystać z konsultacji oraz zamówić produkt wypełnij formularz kontaktowy, a nasz
                             Specjalista skontaktuje się z Tobą w celu realizacji zamówienia.
                         </p>
-                        <form>
+                        <div class="result-send"></div>
+                        <form action="./form-send.php" method="POST">
                             <div class="uk-margin">
-                                <label for="phone">Telefon</label><br>
+                                <label for="name">Imię Nazwisko*</label><br>
+                                <div class="uk-inline">
+                                    <span class="uk-form-icon" data-uk-icon="icon: user"></span>
+                                    <input class="uk-input uk-form-width-large" type="text" id="name"
+                                        placeholder="Jan Kowalski" minlength="3" name="name" required
+                                        data-text-error="Wpisz poprawne imię i nazwisko">
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <label for="phone">Telefon*</label><br>
                                 <div class="uk-inline">
                                     <span class="uk-form-icon" data-uk-icon="icon: receiver"></span>
-                                    <input class="uk-input" type="text" id="phone">
+                                    <input class="uk-input uk-form-width-large" type="tel" minlength="9" id="phone"
+                                        name="phone" placeholder="Podaj swój numer telefonu" pattern="[0-9]+" required
+                                        data-uk-tooltip="Tylko cyfry, minimum 9 cyfr"
+                                        data-text-error="Wpisz poprawne numer telefonu">
                                 </div>
                             </div>
                             <div class="uk-margin">
-                                <label for="name">Imię</label><br>
-                                <div class="uk-inline">
-                                    <span class="uk-form-icon" data-uk-icon="icon: user"></span>
-                                    <input class="uk-input" type="text" id="name">
-                                </div>
-                            </div>
-                            <div class="uk-margin">
-                                <label for="lastname">Nazwisko</label><br>
-                                <div class="uk-inline">
-                                    <span class="uk-form-icon" data-uk-icon="icon: user"></span>
-                                    <input class="uk-input" type="text" id="lastname">
-                                </div>
-                            </div>
-                            <div class="uk-margin">
-                                <input class="uk-checkbox" type="checkbox" id="checkbox">
-                                <label for="checkbox">Akceptuję <a class="uk-link-text" href="#">Politykę
+                                <input class="uk-checkbox" type="checkbox" id="checkbox" name="private-police" required
+                                    data-text-error="Zaznacz zgodę">
+                                <label for="checkbox">Akceptuję <a class="uk-link-text" style="color: #72A1AF"
+                                        href="https://health-lab.pl/wp-content/uploads/2020/12/Health-lab.pl_Polityka-prywatnosci-oraz-polityka-plikow-cookies-health-lab.pl_.pdf">Politykę
                                         Prywatności</a></label>
                             </div>
-                            <button class="uk-button uk-button-default">Wyslij</button>
+                            <div class="honey">
+                                <label for="honey">Jeżeli jesteś człowiekiem, nie wypełniaj tego pola</label>
+                                <input type="text" name="honey" id="honey">
+                            </div>
+                            <button class="uk-button uk-button-biouron uk-margin-small-top">Wyślij<span
+                                    data-uk-icon="chevron-right" class="uk-margin-small-left"></span></button>
                         </form>
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <img src="./images/product-form.jpg" alt="lekarz w kitlu ze stetoskopem na szyi" width="680"
-                            height="465">
+                    <div class="uk-card">
+                        <picture>
+                            <!-- webp -->
+                            <source class="img-responsive" srcset="./images/biouron-sm.webp" media="(max-width: 640px)"
+                                type="doctor
+                                    <source class=" img-responsive" srcset="./images/biouron
+                                media=" (max-width: 768px)" type="image/webp" />
+                            <source class="img-responsive" srcset="./images/biouron-lg.webp" media="(max-width: 1024px)"
+                                type="image/webp" />
+                            <!-- jpg -->
+                            <source class="img-responsive" srcset="./images/biouron-sm.jpg" media="(max-width: 640px)"
+                                type="image/jpg" />
+                            <source class="img-responsive" srcset="./images/biouron-md.jpg" media="(max-width: 768px)"
+                                type="image/jpg" />
+                            <source class="img-responsive" srcset="./images/biouron-lg.jpg" media="(max-width: 1024px)"
+                                type="image/jpg" />
+                            <!-- original -->
+                            <img data-src="./images/biouron.jpg" alt="lekarz w kitlu ze stetoskopem na szyi" width="680"
+                                height="465" data-uk-img>
+                        </picture>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="uk-section" style="background-color: #72A1AF;">
+    <div class="uk-section uk-padding-small" style="background-color: #72A1AF;">
         <div class="uk-container  uk-container-xlarge uk-text-center" style="color: #fff">
             <p>Copyright by Biouron 2021. All rights reserved.</p>
         </div>
     </div>
-    <script src="/js/index.min.js"></script>
+    <!-- formularz kontaktowy modal-->
+
+    <div id="modal-center" class="uk-flex-top" data-uk-modal>
+        <div class="uk-modal-dialog uk-padding-small uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" data-uk-close></button>
+
+            <div class="uk-section uk-padding-small">
+                <div class="uk-container">
+                    <div class="">
+                        <div>
+                            <div class="uk-card">
+                                <h2 id="kontakt" class="uk-heading-small biouron-second-color underscore-left">
+                                    <span class="biouron-last-color">Formularz</span> kontaktowy</h2>
+                                <p class="uk-margin-medium-top">
+                                    Aby skorzystać z konsultacji oraz zamówić produkt wypełnij formularz kontaktowy, a
+                                    nasz
+                                    Specjalista skontaktuje się z Tobą w celu realizacji zamówienia.
+                                </p>
+                                <div class="result-send-popup"></div>
+                                <form action="./form-send.php" method="POST" class="formPopup">
+                                    <div class="uk-margin">
+                                        <label for="name">Imię Nazwisko*</label><br>
+                                        <div class="uk-inline">
+                                            <span class="uk-form-icon" data-uk-icon="icon: user"></span>
+                                            <input class="uk-input uk-form-width-large" type="text" id="name"
+                                                placeholder="Jan Kowalski" minlength="3" name="name" required
+                                                data-text-error="Wpisz poprawne imię i nazwisko">
+                                        </div>
+                                    </div>
+                                    <div class="uk-margin">
+                                        <label for="phone">Telefon*</label><br>
+                                        <div class="uk-inline">
+                                            <span class="uk-form-icon" data-uk-icon="icon: receiver"></span>
+                                            <input class="uk-input uk-form-width-large" type="tel" minlength="9"
+                                                id="phone" name="phone" placeholder="Podaj swój numer telefonu"
+                                                pattern="[0-9]+" required data-uk-tooltip="Tylko cyfry, minimum 9 cyfr"
+                                                data-text-error="Wpisz poprawne numer telefonu">
+                                        </div>
+                                    </div>
+                                    <div class="uk-margin">
+                                        <input class="uk-checkbox" type="checkbox" id="checkbox" name="private-police"
+                                            required data-text-error="Zaznacz zgodę">
+                                        <label for="checkbox">Akceptuję <a class="uk-link-text" style="color: #72A1AF"
+                                                href="https://health-lab.pl/wp-content/uploads/2020/12/Health-lab.pl_Polityka-prywatnosci-oraz-polityka-plikow-cookies-health-lab.pl_.pdf">Politykę
+                                                Prywatności</a></label>
+                                    </div>
+                                    <div class="honey">
+                                        <label for="honey">Jeżeli jesteś człowiekiem, nie wypełniaj tego pola</label>
+                                        <input type="text" name="honey" id="honey">
+                                    </div>
+                                    <button class="uk-button uk-button-biouron uk-margin-small-top">Wyślij<span
+                                            data-uk-icon="chevron-right" class="uk-margin-small-left"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.min.js"></script>
 </body>
 
 </html>

@@ -13,14 +13,15 @@ sass.compiler = require("sass");
 
 const server = function (cb) {
     browserSync.init({
-        server: {
-            baseDir: "./dist"
-        },
+        // server: {
+        //     baseDir: "./dist"
+        // },
         notify: false, //reszta opcji z dokumentacji browsersync
         //host: "192.168.0.24",
+        proxy: 'localhost/health-lab/dist',
         port: 3000,
         open: true,
-        browser: "chrome" //https://stackoverflow.com/questions/24686585/gulp-browser-sync-open-chrome-only
+        browser: "chrome"//https://stackoverflow.com/questions/24686585/gulp-browser-sync-open-chrome-only
     });
 
     cb();
