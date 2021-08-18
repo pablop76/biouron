@@ -24,6 +24,10 @@
     background-color: #A8D6E5;
 }
 
+h3 {
+    font-family: 'Barlow', sans-serif;
+}
+
 h1,
 h2 {
     &.uk-heading-small {
@@ -35,6 +39,10 @@ h2 {
 body {
     font-family: 'Barlow', sans-serif;
     color: #000;
+}
+
+.uk-text-bold {
+    font-weight: 600;
 }
 
 .biouron-last-color {
