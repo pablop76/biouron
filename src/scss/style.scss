@@ -160,6 +160,14 @@ body {
     }
 }
 
+@media (max-width:380px) {
+
+    #cconsent-bar button {
+        margin-top: 15px;
+        display: block;
+    }
+}
+
 /* walidacja formularza*/
 .form-error {
     display: none;
