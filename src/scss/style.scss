@@ -53,14 +53,23 @@ body {
     color: $biouron-second-color;
 }
 
+.uk-text-large {
+    font-size: 26px;
+}
+
 
 .uk-button-biouron {
     background-color: $biouron-last-color;
     color: #fff;
+    min-width: 220px;
+    letter-spacing: 1.3px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .uk-card-title-biouron {
-    color: $biouron-second-color;
+    color: $biouron-last-color;
     font-size: 25px;
 }
 

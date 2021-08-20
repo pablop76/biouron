@@ -1,6 +1,6 @@
 # strona Landing Page Biouron
 
-![Agrotax](./layout.jpg)
+![Biouron](./layout.jpg)
 
 ## użyte technologie.
 
