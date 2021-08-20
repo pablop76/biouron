@@ -43,15 +43,9 @@ NIETRZYMANIE MOCZU I ODBIERZ 1 OPAKOWANIE W CENIE PROMOCYJNEJ 117 zł!">
         <div class="uk-container  uk-container-large">
             <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
                 <div class="uk-navbar-left">
-                    <ul class="uk-navbar-nav" data-uk-scrollspy-nav="closest: li; scroll: true">
-                        <li class="uk-active"><a class="uk-navbar-item uk-logo" href="#top"><img
-                                    src="./images/biouron.svg" alt="logo Biouron" width="119" height="28"></a></li>
-                        <li><a href="#opinie-klientow">Opinie klientów</a></li>
-                        <li><a href="#jak-dziala">Jak działa</a></li>
-                        <li><a href="#oferta">Oferta</a></li>
-                        <li><a href="#o-biouronie">O biouronie</a></li>
-                        <li><a href="#kontakt">Kontakt</a></li>
-                    </ul>
+                    @@include('./views/_navsitems.html',{
+                    "class":"uk-navbar-nav"
+                    })
                 </div>
             </nav>
         </div>
@@ -67,16 +61,9 @@ NIETRZYMANIE MOCZU I ODBIERZ 1 OPAKOWANIE W CENIE PROMOCYJNEJ 117 zł!">
     <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar uk-flex uk-flex-column">
             <a href="#" class="uk-offcanvas-close" data-uk-close></a>
-            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical"
-                data-uk-scrollspy-nav="closest: li; scroll: true">
-                <li class="uk-active"><a class="uk-navbar-item uk-logo" href="#top"><img src="./images/biouron.svg"
-                            alt="logo Biouron" width="119" height="28"></a></li>
-                <li><a href="#opinie-klientow">Opinie klientów</a></li>
-                <li><a href="#jak-dziala">Jak działa</a></li>
-                <li><a href="#oferta">Oferta</a></li>
-                <li><a href="#o-biouronie">O biouronie</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
+            @@include('./views/_navsitems.html',{
+            "class":"uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical"
+            })
         </div>
     </div>
     <!-- banner -->
@@ -642,7 +629,7 @@ NIETRZYMANIE MOCZU I ODBIERZ 1 OPAKOWANIE W CENIE PROMOCYJNEJ 117 zł!">
                 <div>
                     <div class="uk-card uk-margin-medium-top">
                         <h3 class=" uk-text-bold">ZGŁOŚ SIĘ PO NAJLEPSZY PREPARAT NA RYNKU NA<br>
-                            NIETRZYMANIE MOCZU I <span class="biouron-last-color uk-display-block uk-text-large">ODBIERZ
+                            NIETRZYMANIE MOCZU <span class="biouron-last-color uk-display-block uk-text-large">ODBIERZ
                                 1 OPAKOWANIE
                                 W
                                 CENIE PROMOCYJNEJ 117 zł! </span></h3>
@@ -679,8 +666,7 @@ NIETRZYMANIE MOCZU I ODBIERZ 1 OPAKOWANIE W CENIE PROMOCYJNEJ 117 zł!">
                             Aktualnie w związku z programem <span class="uk-text-bold">"Zdrowy pęcherz"</span>
                             dostępny
                             jest jednorazowy RABAT! Cena
-                            początkowa wynosiła 357 złotych, <span
-                                class="uk-text-bold uk-display-block uk-text-danger">teraz
+                            początkowa wynosiła 357 złotych, <span class="uk-text-bold uk-text-danger">teraz
                                 tylko 117
                                 zł!</span>
                         </p>
