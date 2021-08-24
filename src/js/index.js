@@ -58,7 +58,7 @@ window.CookieConsent.init({
                         name: 'Ściśle niezbędne pliki Cookies',
                         description: ' (NIE wymagają Twojej uprzedniej zgody): są niezbędne dla działania strony. Te pliki cookie oraz informacje, które zawierają, nie powinny być używane dla celów innych niż opisane powyżej. Instalacja ściśle niezbędnych plików cookie nie wymaga Twojej uprzedniej zgody: są one automatycznie instalowane na Twoim urządzeniu, kiedy wchodzisz na stronę. Możesz podjąć decyzję o późniejszym usunięciu tych plików cookie w ustawieniach Twojej przeglądarki sieciowej.',
                     }
-                }
+                },
             }
         }
     },
@@ -66,40 +66,5 @@ window.CookieConsent.init({
     // List actual services here
     services: {
         // Unique name
-        analytics: {
-            // Istniejąca kategoria Unikalna nazwa
-            // Ten przykład pokazuje, jak zablokować Google Analytics
-            category: 'necessary',
-            // Typ blokowania do zastosowania w tym miejscu.
-            // To zależy od rodzaju skryptu, który próbujemy zablokować
-            // Może być: dynamic-script, script-tag, wraped, localcookie
-            type: 'dynamic-script',
-            // Wymagane tylko wtedy, gdy "type: dynamic-script"
-            // Filtr będzie szukał tego słowa kluczowego we wstawionych tagach skryptu
-            // i zablokuj, jeśli znaleziono dopasowanie
-            search: 'analytics',
-            // Lista znanych nazw plików cookie lub pasujących wyrażeń regularnych
-            // nazwy plików cookie umieszczane przez tę usługę.
-            // Zostaną one usunięte z bieżącej domeny i domeny .domain.
-            cookies: [{
-                // Known cookie name.
-                name: '_gid',
-                // Expected cookie domain.
-                domain: `.${window.location.hostname}`
-            },
-            {
-                // Regex matching cookie name.
-                name: /^_ga/,
-                domain: `.${window.location.hostname}`
-            }
-            ],
-            language: {
-                locale: {
-                    pl: {
-                        name: 'Google Analytics'
-                    }
-                }
-            }
-        }
     }
 });
