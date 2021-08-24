@@ -169,17 +169,6 @@ body {
     }
 }
 
-@media (max-width:380px) {
-
-    #cconsent-bar button {
-        margin-top: 15px;
-        display: block;
-    }
-
-    .uk-text-large {
-        font-size: 22px;
-    }
-}
 
 /* walidacja formularza*/
 .form-error {
@@ -245,4 +234,20 @@ input:required:valid {
 
 .honey {
     display: none;
+}
+
+@media (max-width:380px) {
+
+    #cconsent-bar button {
+        margin-top: 15px;
+        display: block;
+    }
+
+    .uk-text-large {
+        font-size: 22px;
+    }
+
+    .banner {
+        min-height: 550px;
+    }
 }
