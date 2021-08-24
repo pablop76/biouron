@@ -1,4 +1,4 @@
-# strona Landing Page Biouron
+# Landing Page Biouron
 
 ![Biouron](./layout.jpg)
 
