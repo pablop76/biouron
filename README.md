@@ -35,4 +35,5 @@
 - są tworzone w katalogu dist
 
 ## bug
-- 
+- DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
