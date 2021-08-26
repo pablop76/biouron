@@ -216,6 +216,14 @@ const popupForm = () => {
 setTimeout(() => {
     UIkit.modal("#modal-center").show();
     popupForm();
-}, 7000)
+}, 7000);
+
+const showModal = document.querySelectorAll(".showModal");
+showModal.forEach((el) => {
+    el.addEventListener('click', (e) => {
+        e.preventDefault();
+        UIkit.modal("#modal-center").show();
+    })
+})
 
 
