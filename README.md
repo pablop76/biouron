@@ -37,5 +37,5 @@
 ## bug
 - DEPRECATION WARNING: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
 - Po zmianach w pliku json z opiniami należy zapisać "zmiany" w pliku _testimonial.html lub ponownie uruchomić polecenie gulp 
-- wartości w pliku json muszą być w jednej linii
+- wartości w pliku testimonial.json muszą być w jednej linii
 
