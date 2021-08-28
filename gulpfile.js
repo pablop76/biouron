@@ -8,6 +8,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const browserSync = require("browser-sync").create();
 const webpack = require("webpack");
 const sharpResponsive = require("gulp-sharp-responsive");
+const htmlmin = require('gulp-htmlmin');
 
 sass.compiler = require("sass");
 
@@ -71,15 +72,15 @@ const copyImages = function (cb) {
 
 
 const html = () => {
-    return gulp.src(['src/html/*.html', '!src/html/views/*.html'])
+    return gulp.src('src/html/*.html')
         // .pipe(validator())
         .pipe(fileinclude({
             prefix: '@@',
             basepath: '@file'
         }))
+        .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest('dist/'));
 };
-
 
 const htmlReload = function (cb) {
     browserSync.reload();
@@ -87,8 +88,8 @@ const htmlReload = function (cb) {
 }
 const watch = function (cb) {
     gulp.watch("src/scss/**/*.scss", { usePolling: true }, gulp.series(css));
-    gulp.watch("src/html/**/*.html", gulp.series(html, htmlReload));
     gulp.watch("src/js/**/*.js", gulp.series(js));
+    gulp.watch("src/html/**/*.html", gulp.series(html, htmlReload));
     gulp.watch("src/html/**/*.html").on("change", browserSync.reload);
     cb();
 }

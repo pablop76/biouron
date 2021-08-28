@@ -1,0 +1,34 @@
+[
+    {
+        "image": "./images/maria.jpg",
+        "order": "",
+        "alt": "kobieta w średnim wieku",
+        "title": "To ogromna ulga, do dzisiaj dziekuję siostrze, że poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.",
+        "text": "Mam na imię Maria. Od ok. 6 lat borykałam się z problemem nietrzymania moczu.Zaczęło się od pracy, podczas wysiłku czułam nagłe parcie na pęcherz i samoistne popuszczanie bez szans na dobiegnięcie do toalety. Później było już tylko gorzej, kiedy nie przesypiałam całej nocy, a parcie na pęcherz budziło mnie 3 - 4 razy w nocy do toalety.Chodziłam zmęczona i zmartwiona, a znajomi i rodzina nie wiedzieli co się dzieje, ponieważ nie chciałam mówić im o tym problemie.Chodziłam do różnych specjalistów, począwszy od lekarzy pierwszego kontaktu, skończywszy na urologach, wydałam majątek na leki które, nie pomagały.Kiedy powiedziałam siostrze o co chodzi, ona od razu wyjęła z torebki kapsułki i kazała natychmiast zacząć stosować. <span class='uk-text-bold'> Po miesiącu od tamtego momentu mogłam już przesypiać całą noc bez budzenia się z mokrą pościelą, a w tym momencie nawet przy mocnym wysiłku nie czuję konieczności biegania do toalety. </span> To ogromna ulga i do dzisiaj dziekuję siostrze, że poleciła mi tak dobry, naturalny preparat, który zmienił moje życie.",
+        "signature": "Pani Maria - Gdańsk"
+    },
+    {
+        "image": "./images/marek.jpg",
+        "order": "uk-flex-last@m",
+        "alt": "męższczyzna w srednim wieku",
+        "title": "W końcu trafiłem na świetnego specjalistę, który od razu zalecił mi stosowanie Biouronu, i uwierzcie, już po 2 tygodniach zauważyłem ogromną poprawę!",
+        "text": "Nazywam się Marek, mój wstydliwy problem zaczął się ok. 2 lata temu, kiedy pewnego dnia poszedłem na spotkanie z kolegami i przy nagłej zmianie temperatury poczułem ciepło w spodniach, poszedłem do łazienki i zauważyłem plamę na bieliźnie. W tamtym momencie nie wiedziałem o co chodzi, ale niestety to był dopiero początek, później było coraz gorzej. Kiedy to przy wstawaniu po dłuższym odpoczynku na kanapie, nie mogłem dobiec do toalety, popuszczając, bądź też kiedy budziłem się rano i widziałem przemoczoną pościel - byłem załamany. Od razu po wykryciu problemu poszedłem do swojego urologa, który przez rok zmieniał mi leki i NIC nie pomagało, problem się bardziej pogłębiał, a ja byłem w coraz gorszym stanie psychicznym, ponieważ wyjście z kolegami i przesiedzenia kilku godzin bez biegania do toalety było niemożliwe. W końcu trafiłem na świetnego specjalistę, który od razu zalecił mi stosowanie Biouronu, i uwierzcie, już po 2 tygodniach zauważyłem ogromną poprawę! Mogłem siedzieć 3 godziny bez konieczności myślenia o toalecie, a na ten moment nie ma nawet mowy o przemoczonej bieliźnie czy pościeli. <span class='uk-text-bold'>Odzyskałem swoje dawne życie.</span>",
+        "signature": "Pan Marek - Sosnowiec."
+    },
+    {
+        "image": "./images/krystyna.jpg",
+        "order": "",
+        "alt": "kobieta w średnim wieku",
+        "title": "Stosowałam mnóstwo leków i zabiegów, które nie przynosiły efektów, do momentu, kiedy nie trafiłam na Biouron.",
+        "text": "Po 25 latach mojej kariery w szkole, kiedy to przeszłam na emeryturę z zamiarem odpoczynku, nie wiedziałam, że wtedy zacznie się mój koszmar. Po operacji ginekologicznej mój pęcherz przestał pracować jak dotychczas i zdiagnozowano u mnie napięciowe nietrzymanie moczu. Stosowałam mnóstwo leków i zabiegów, które nie przynosiły efektów, do momentu, kiedy nie trafiłam na Biouron. To znajoma urolog, kiedy dowiedziała się o moim problemie od razu zaleciła mi stosowanie tego preparatu, a ja nie mogłam uwierzyć jak już po 2 tygodniach przestałam popuszczać, <span class='uk-text-bold'> nie musiałam już nosić wkładek i przede wszystkim mogłam cieszyć się z zabawy z wnukami, bez przykrych zapachów i biegania do toalety!</span>",
+        "signature": "Pani Krystyna - Wadowice"
+    },
+    {
+        "image": "./images/kasia.jpg",
+        "order": "uk-flex-last@m",
+        "alt": "kobieta w średnim wieku",
+        "title": "Na moje szczęście problem nie trwał długo, ponieważ z polecenia znajomej trafiłam do najlepszego specjalisty, a on od razu zalecił mi 2 miesiące stosowania BioUronu.",
+        "text": "Miałam 42 lata, kiedy urodziłam ostatniego syna i właśnie wtedy zaczęły się moje niechciane problemy z układem moczowym. Kiedy mój lekarz powiedział mi, że to normalne, że po trójce dzieci nie będę utrzymywała moczu i do końca życia będę musiała nosić podpaski, byłam totalnie załamana, a moje życie straciło sens, przecież byłam jeszcze młoda! Na moje szczęście problem nie trwał długo, ponieważ z polecenia znajomej trafiłam do najlepszego specjalisty, a on od razu zalecił mi 2 miesiące stosowania BioUronu. <span class='uk-text-bold'> Teraz, kiedy spotykam się ze znajomą, z rozbawieniem wspominamy czasy okupowania toalety, a mąż jest szczęśliwy, ponieważ znowu mamy udane życie seksualne! Będę polecała każdemu z podobnym problemem.</span>",
+        "signature": "Pani Kasia - Siemiatycze"
+    }
+]
