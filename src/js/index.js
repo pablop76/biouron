@@ -3,6 +3,18 @@ import Icons from 'uikit/dist/js/uikit-icons';
 
 // loads the Icon plugin
 UIkit.use(Icons);
+setTimeout(() => {
+    UIkit.modal("#modal-center").show();
+    popupForm();
+}, 7000);
+
+const showModal = document.querySelectorAll(".showModal");
+showModal.forEach((el) => {
+    el.addEventListener('click', (e) => {
+        e.preventDefault();
+        UIkit.modal("#modal-center").show();
+    })
+})
 import "./validityform";
 import "./cookieconsent";
 window.CookieConsent.init({
