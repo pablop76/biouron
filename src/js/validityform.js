@@ -104,6 +104,7 @@ form.addEventListener("submit", (e) => {
                             <a class="uk-alert-close" data-uk-close></a>
                             <p>Dziękujemy za wysłanie wiadomości. Nasz Specjalista skontaktuje się z Tobą w celu realizacji zamówienia.</p>
                         </div>`
+                        window.location.assign("dziekujemy.html");
                     }
                     if (res.status === "error") {
                         resultSend.innerHTML = `          
@@ -127,7 +128,7 @@ form.addEventListener("submit", (e) => {
     }
 });
 
-const popupForm = () => {
+function popupForm() {
     const form = document.querySelector(".formPopup");
     const inputName = form.querySelector("input[name=name]");
     const inputPhone = form.querySelector("input[name=phone]");
@@ -190,14 +191,15 @@ const popupForm = () => {
                             <a class="uk-alert-close" data-uk-close></a>
                             <p>Dziękujemy za wysłanie wiadomości. Nasz Specjalista skontaktuje się z Tobą w celu realizacji zamówienia.</p>
                         </div>`
+                            window.location.assign("dziekujemy.html");
                         }
                         if (res.status === "error") {
                             resultSend.innerHTML = `          
-                        <div class="uk-alert-danger" data-uk-alert>
-                            <a class="uk-alert-close" data-uk-close></a>
-                            <p>Wiadomość nie została wysłana. Sprubój ponownie później</p>
-                        </div>
-                       `
+                                <div class="uk-alert-danger" data-uk-alert>
+                                    <a class="uk-alert-close" data-uk-close></a>
+                                    <p>Wiadomość nie została wysłana. Sprubój ponownie później</p>
+                                </div>
+                               `
                         }
                     }
                 }).finally(() => {
@@ -213,6 +215,7 @@ const popupForm = () => {
         }
     });
 }
+popupForm();
 
 
 

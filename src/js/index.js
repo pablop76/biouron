@@ -1,11 +1,11 @@
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
-
+import "./validityform";
+import "./cookieconsent";
 // loads the Icon plugin
 UIkit.use(Icons);
 setTimeout(() => {
     UIkit.modal("#modal-center").show();
-    popupForm();
 }, 7000);
 
 const showModal = document.querySelectorAll(".showModal");
@@ -15,8 +15,6 @@ showModal.forEach((el) => {
         UIkit.modal("#modal-center").show();
     })
 })
-import "./validityform";
-import "./cookieconsent";
 window.CookieConsent.init({
     // More link URL on bar
     modalMainTextMoreLink: null,

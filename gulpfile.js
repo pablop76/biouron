@@ -65,7 +65,7 @@ const js = function (cb) { //https://github.com/webpack/docs/wiki/usage-with-gul
     })
 }
 
-const copyImages = function (cb) {
+const copyImages = function () {
     return gulp.src('src/images/**/*+(.jpg|png|gif|svg)')
         .pipe(gulp.dest('dist/images'))
 }
@@ -73,7 +73,7 @@ const copyImages = function (cb) {
 
 const html = () => {
     return gulp.src('src/html/*.html')
-        // .pipe(validator())
+        .pipe(validator())
         .pipe(fileinclude({
             prefix: '@@',
             basepath: '@file'
