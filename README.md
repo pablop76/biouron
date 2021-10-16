@@ -30,7 +30,7 @@
 
 - gulp
 2. ustawienie serwera
-- w pliku gulpfile.js należy ustawić ścieżke do folderu we własciwości proxy, jeżeli korzystamy np. z xamppa
+- w pliku gulpfile.js należy ustawić ścieżke do folderu we własciwości 'proxy', jeżeli korzystamy np. z xamppa
 lub zakomentować proxy i odkomentować 'server' jeżeli korzystamy z serwera node.
 
 ## pliki produkcyjne
