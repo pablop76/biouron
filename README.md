@@ -29,6 +29,25 @@
 1. uruchomienie
 
 - gulp
+2. ustawienie serwera
+- w pliku gulpfile.js należy ustawić ścieżke do folderu we własciwości proxy, jeżeli korzystamy np. z xamppa
+lub zakomentować proxy i odkomentować 'server' jeżeli korzystamy z serwera node.
+
+const server = function (cb) {
+    browserSync.init({
+        // server: {
+        //     baseDir: "./dist"
+        // },
+        notify: false, //reszta opcji z dokumentacji browsersync
+        //host: "192.168.0.24",
+        proxy: 'localhost/health-lab/dist',
+        port: 3000,
+        open: true,
+        browser: "chrome"
+    });
+
+    cb();
+}
 
 ## pliki produkcyjne
 
