@@ -1,6 +1,6 @@
 <?php
 
-$mailToSend = "zamowienia@health-lab.pl";
+$mailToSend = "kontakt@health-lab.pl";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $name = $_POST["name"];
